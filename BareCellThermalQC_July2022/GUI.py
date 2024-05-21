@@ -110,6 +110,8 @@ class MainWindow(QMainWindow):
 
 		layout01 = QVBoxLayout()
 
+		layout11 = QVBoxLayout()
+
 		#Variables
 		global gain_a
 		gain_a=2
@@ -128,8 +130,8 @@ class MainWindow(QMainWindow):
 		global thick
 		thick = 0.0074+0.0018
 		global serial_number
-		global messurment_run
-		messurment_run = 0
+		global measurment_run
+		measurment_run = 0
 		global values_graph1
 		values_graph1=np.array([])
 		global values_graph2
@@ -150,6 +152,8 @@ class MainWindow(QMainWindow):
 		values_graph_messung3 = np.array([])
 		global values_graph_messung4
 		values_graph_messung4 = np.array([])
+		global measurment_run_extra
+		measurment_run_extra = 0
 		
 		##without hardware comment out##
 		data = [2,2,1,0]
@@ -166,7 +170,7 @@ class MainWindow(QMainWindow):
 		self.widgetl00L2 = QLabel("Starte Heizspirale")
 		self.widgetl00L3 = QLabel("Jetzige Spannung:\n0.000")
 		self.widgetl00L4 = QLabel("Jetzige Spannung:\n0.000")
-		self.widgetl00L5 = QLabel("Keine Verbindung zum Pi")
+		self.widgetl00L5 = QLabel("Pc und Pi \nsind verbunden")
 		self.widgetl00L6 = QLabel("Knopf drücken um Range zu ändern.\nAnsonsten wird die vorherige oder \ndie Standart Range verwendet")
 		self.widgetl00L7 = QLabel()
 		self.widgetl00L8 = QLabel("Jetziger Strom:\n0.000")
@@ -193,7 +197,7 @@ class MainWindow(QMainWindow):
 		self.widgetPB7 = QPushButton("Spannung setzen")
 		self.widgetPB8 = QPushButton("Strom setzen")
 		self.widgetPB9 = QPushButton("Strom setzen")
-		self.widgetPB10 = QPushButton("Neue Messreihe Starten")
+		self.widgetPB10 = QPushButton("Messreihe weiterführen und gleichen Ordner weiterverwenden")
 		self.widgetPB11 = QPushButton("Graph Leeren")
 		self.widgetPB12 = QPushButton("Programm starten")
 
@@ -267,6 +271,7 @@ class MainWindow(QMainWindow):
 
 		####sector11####
 
+		self.widgetl11L17 = QLabel()
 				
 		#-------add functions to Widgets-------# 
 		####sector00####
@@ -328,8 +333,8 @@ class MainWindow(QMainWindow):
 
 		widget00SB3.setMinimum(0)
 		widget00SB3.setMaximum(500)
-		widget00SB3.valueChanged.connect(self.messurment_frequancy)
-		widget00SB3.setValue(10)
+		widget00SB3.valueChanged.connect(self.messurment_frequency)
+		widget00SB3.setValue(100)
 
 		widget00DSB1.setMinimum(0.000)
 		widget00DSB1.setMaximum(15)
@@ -359,6 +364,9 @@ class MainWindow(QMainWindow):
 		####sector01####
 
 		####sector11####
+		font7 = self.widgetl11L17.font()
+		font7.setPointSize(20)
+		self.widgetl11L17.setFont(font7)
 
 
 		#---------add Widgets into Layouts---------#
@@ -509,13 +517,14 @@ class MainWindow(QMainWindow):
 		layout01.addWidget(self.widget01G)
 
 		#sector11
+		layout11.addWidget(self.widgetl11L17)
 
 		#----------add Layouts into Grid----------#
 	
 		layout.addLayout(layout00, 0, 0)
 		layout.addLayout(layout10, 1, 0)
 		layout.addLayout(layout01, 0, 1)
-		#layout.addLayout(layout11, 1, 1)
+		layout.addLayout(layout11, 1, 1)
 
 		layout00.setContentsMargins(0,0,0,0)
 		layout10.setContentsMargins(0,0,0,0)
@@ -567,14 +576,15 @@ class MainWindow(QMainWindow):
 
 
 	def new_messurment_series(self):
-		global messurment_run
-		messurment_run = 0
+		global measurment_run_extra
+		global measurment_run
+		measurment_run = measurment_run_extra
 		self.widgetl00L7.setText("Messung kann gestartet werden")
-		try:
-			shutil.copy('Vorordner/Vollständige_Temp_Kurve_.txt', 'Vorordner/%s/Vollständige_Temp_Kurve_.txt'%(serial_number))
-			os.remove('Vorordner/Vollständige_Temp_Kurve_.txt')
-		except:
-			self.widgetl00L7.setText("Datei konnte nicht verschoben werden")
+		#try:
+		#	shutil.copy('Vorordner/Vollständige_Temp_Kurve_.txt', 'Vorordner/%s/Vollständige_Temp_Kurve_.txt'%(serial_number))
+		#	os.remove('Vorordner/Vollständige_Temp_Kurve_.txt')
+		#except:
+		#	self.widgetl00L7.setText("Datei konnte nicht verschoben werden")
 
 	def text_edited(self,s):
 		global serial_number
@@ -671,9 +681,9 @@ class MainWindow(QMainWindow):
 		values_graph4 = np.append(values_graph4,(T4))
 
 		if (-0.05 < (np.mean(values_graph1[-24:-15])-np.mean(values_graph1[-8:-1])) < 0.05) and (-0.05 < (np.mean(values_graph2[-24:-15])-np.mean(values_graph2[-8:-1])) < 0.05) and (-0.05 < (np.mean(values_graph3[-24:-15])-np.mean(values_graph3[-8:-1])) < 0.05) and (-0.05 < (np.mean(values_graph4[-24:-15])-np.mean(values_graph4[-8:-1])) < 0.05):
-			self.widgetl00L7.setText("Temperatur Equilibrium erreicht")
+			self.widgetl00L7.setText("Temperatur Equilibrium vorhanden")
 		else:
-			self.widgetl00L7.setText("Messung sollte nicht gestartet werden. Equilibrium nicht erreicht")
+			self.widgetl00L7.setText("Messung sollte nicht gestartet werden. Equilibrium nicht vorhanden")
 
 		global x_values_graph
 		x_values_graph = np.append(x_values_graph,len(values_graph1))
@@ -784,7 +794,7 @@ class MainWindow(QMainWindow):
 			d.on()
 
 
-	def messurment_frequancy(self, i):
+	def messurment_frequency(self, i):
 		global how_often
 		how_often = i
 
@@ -852,12 +862,19 @@ class MainWindow(QMainWindow):
 
 	
 	def start_messurment(self):
-		global messurment_run
+		global measurment_run
+		global measurment_run_extra
 		global serial_number
 
-		os.mkdir("Vorordner/%s"%(serial_number))
+		QApplication.processEvents()
+		self.widgetl11L17.setText("Neue Messung begonnen.\nBitte warte, dies dauert einige Minuten")
+
+		try:
+			os.mkdir("Vorordner/%s"%(serial_number))
+		except:
+			pass
 		go = 0
-		datei = open('Vorordner/%s/Messung%s_%s.txt'%(serial_number,messurment_run,serial_number),'w')
+		datei = open('Vorordner/%s/Messung%s_%s.txt'%(serial_number,measurment_run,serial_number),'w')
 		datei1 = open('Vorordner/Vollständige_Temp_Kurve_.txt','a')
 		while go < how_often:
 			dut = Dut("/home/cellqc/basil/examples/lab_devices/rs_hmp4040.yaml")
@@ -916,7 +933,7 @@ class MainWindow(QMainWindow):
 		#---------------Plot_Messung---------------#
 
 		# Load data
-		datafile = np.loadtxt('Vorordner/%s/Messung%s_%s.txt'%(serial_number,messurment_run,serial_number), delimiter='\t', unpack=True)
+		datafile = np.loadtxt('Vorordner/%s/Messung%s_%s.txt'%(serial_number,measurment_run,serial_number), delimiter='\t', unpack=True)
 		a,da,b,db,c,dc,d,dd = 0,1,2,3,4,5,6,7
 		A,dA,B,dB,C,dC,D,dD = datafile[a],datafile[da],datafile[b],datafile[db],datafile[c],datafile[dc],datafile[d],datafile[dd]
 
@@ -939,7 +956,7 @@ class MainWindow(QMainWindow):
 		plt.legend(loc='best')
 		plt.grid(True, which='major',linestyle='-', color='dimgray', lw=0.8)
 		plt.tight_layout()
-		plt.savefig('Vorordner/%s/Messung%s_%s.png'%(serial_number,messurment_run,serial_number))
+		plt.savefig('Vorordner/%s/Messung%s_%s.png'%(serial_number,measurment_run,serial_number))
 
 		# Creat the document where Lambda, errors and other values are stored
 		datei = open('Vorordner/%s/Gemittelte_Werte_%s.txt'%(serial_number,serial_number),'a')
@@ -954,10 +971,16 @@ class MainWindow(QMainWindow):
 		self.widgetl10L11.setText(str(round(lambda2,2))+'\t'+str(round(np.sqrt(1/np.sum(1/var_lam2**2)),2)))
 		self.widgetl10L12.setText(str(round(lambda3,2))+'\t'+str(round(np.sqrt(1/np.sum(1/var_lam3**2)),2)))
 		
+
+		TFM=(0.0092/lambda2-0.0076/lambda1)*(10**4)
+		TFM_error=np.sqrt((0.0092/(lambda2)**2)**2*(np.sqrt(1/np.sum(1/var_lam2**2)))**2+(0.0076/(lambda1)**2)**2*(np.sqrt(1/np.sum(1/var_lam1**2)))**2+(1/(lambda2)-1/(lambda1))**2*(0.0005)**2)*10**4
+
+
 		datei.write(str(weigth[1])+'\t'+str(dweigth[1])
 		+'\t'+str((lambda1))+'\t'+str((np.sqrt(1/np.sum(1/var_lam1**2))))
 		+'\t'+str((lambda2))+'\t'+str((np.sqrt(1/np.sum(1/var_lam2**2))))
 		+'\t'+str((lambda3))+'\t'+str((np.sqrt(1/np.sum(1/var_lam3**2))))
+		+'\t'+str(TFM)+'\t'+str(TFM_error)
 		+'\n')
 
 		datei.close()
@@ -989,8 +1012,12 @@ class MainWindow(QMainWindow):
 		plt.tight_layout()
 		plt.savefig('Vorordner/%s/Vollständige_Temp_Kurve_%s.png'%(serial_number,serial_number))
 
-		messurment_run += 1
-		self.widgetl00L7.setText("Messung erfolgreich Beendet")
+		shutil.copy('Vorordner/Vollständige_Temp_Kurve_.txt', 'Vorordner/%s/Vollständige_Temp_Kurve_%s.txt'%(serial_number,serial_number))
+		os.remove('Vorordner/Vollständige_Temp_Kurve_.txt')
+
+		measurment_run = 0
+		measurment_run_extra += 1
+		self.widgetl11L17.setText("Messung erfolgreich Beendet")
 
 
 
