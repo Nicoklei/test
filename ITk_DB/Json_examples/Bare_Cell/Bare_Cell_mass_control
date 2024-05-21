@@ -1,0 +1,13 @@
+{
+  "component": "...",
+  "testType": "Mass_Control",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T08:49:24.363Z",
+  "passed": true,
+  "problems": false,
+  "results": {
+    "Cell_Mass": 43.18,
+    "Estimated_Glue_Mass": 726.47
+  }
+}

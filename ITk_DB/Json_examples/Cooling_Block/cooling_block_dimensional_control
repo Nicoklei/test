@@ -1,0 +1,17 @@
+{
+  "component": "...",
+  "testType": "Dimensional_Control",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T08:56:22.043Z",
+  "passed": true,
+  "problems": false,
+  "properties": {
+    "Machine_Name": "DRUTILMPVJDMIEYWKXACZYVHHFDDFI"
+  },
+  "results": {
+    "THICKNESS": 611.58,
+    "Metrology_Report": null,
+    "Pass/No_Pass": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "component": "...",
+  "testType": "Dimensional_Control",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T12:54:43.442Z",
+  "passed": true,
+  "problems": false,
+  "results": {
+    "WIDTH": 592.18,
+    "THICKNESS": 199.77,
+    "LENGTH": 880.45,
+    "Pass/No_Pass": false
+  }
+}

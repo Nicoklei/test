@@ -1,0 +1,12 @@
+{
+  "component": "...",
+  "testType": "Mass_control",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T08:57:35.584Z",
+  "passed": true,
+  "problems": false,
+  "results": {
+    "MASS": 584.82
+  }
+}

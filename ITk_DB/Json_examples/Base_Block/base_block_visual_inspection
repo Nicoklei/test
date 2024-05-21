@@ -1,0 +1,16 @@
+{
+  "component": "...",
+  "testType": "Visual_Inspection",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T12:58:33.487Z",
+  "passed": true,
+  "problems": false,
+  "properties": {
+    "Operator_Name": "DDMVNJNELWDVMUDCERPAWDMWTNGJRN"
+  },
+  "results": {
+    "Base_Block_Pictures": null,
+    "Pass/No_Pass": false
+  }
+}

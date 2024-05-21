@@ -1,0 +1,18 @@
+{
+  "component": "...",
+  "testType": "Thermal_Conductivity_Check",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T12:55:44.877Z",
+  "passed": true,
+  "problems": false,
+  "properties": {
+    "Test_Date": "SZSOZPTKGGCFIDRYSVGFNYEVWAGCSR",
+    "Operator_Name": "OZFRGQDECJGSDXWLSMCLCPUEEUPQUH",
+    "Test_Temperature": 876.09,
+    "Test_Power": 182.54
+  },
+  "results": {
+    "Apparent_Thermal_Conductivity": 815.3
+  }
+}

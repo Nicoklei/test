@@ -1,0 +1,13 @@
+{
+  "component": "...",
+  "testType": "Mass_control",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T12:59:48.620Z",
+  "passed": true,
+  "problems": false,
+  "results": {
+    "Base_Block_Mass": 34.43,
+    "Estimated_Ni_Mass": 941.89
+  }
+}

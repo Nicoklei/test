@@ -1,0 +1,17 @@
+{
+  "component": "...",
+  "testType": "Thermal_cycling",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T08:51:43.947Z",
+  "passed": true,
+  "problems": false,
+  "properties": {
+    "Maximum_Temperature": 17.04,
+    "Minimum_Temperature": 672.75,
+    "Number_of_Cycles": 6
+  },
+  "results": {
+    "Done/Not_Done": true
+  }
+}

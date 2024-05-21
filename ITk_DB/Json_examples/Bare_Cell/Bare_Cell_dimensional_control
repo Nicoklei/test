@@ -1,0 +1,17 @@
+{
+  "component": "...",
+  "testType": "Dimensional_Control",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T08:50:58.364Z",
+  "passed": true,
+  "problems": false,
+  "properties": {
+    "Machine_Name": "TJAKQTCBYDEDNIGDDTVPRKTPMCLIGR"
+  },
+  "results": {
+    "Metrology_Report": null,
+    "Glue+Cooling_Block_Thickness": 623.51,
+    "Pass/No_Pass": false
+  }
+}

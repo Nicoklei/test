@@ -1,0 +1,16 @@
+{
+  "component": "...",
+  "testType": "Thread_Check",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T08:57:03.391Z",
+  "passed": true,
+  "problems": false,
+  "properties": {
+    "Machine_Name": "YNGWSPYPNVQAASDAIIKLBFYSWRHPJM"
+  },
+  "results": {
+    "Failure_Load": 396.42,
+    "Failure_Model_(Thread/Pin)": false
+  }
+}

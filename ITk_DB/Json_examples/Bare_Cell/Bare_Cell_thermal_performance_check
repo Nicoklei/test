@@ -1,0 +1,18 @@
+{
+  "component": "...",
+  "testType": "Thermal_performance_check",
+  "institution": "...",
+  "runNumber": "...",
+  "date": "2023-10-25T08:52:25.924Z",
+  "passed": true,
+  "problems": false,
+  "properties": {
+    "Test_Date": "ANLIZMWNTQUQGBORXXRLFEXNCAGLDP",
+    "Operator_Name": "PLCRFGFSUMHRKDGUSQXCZEBLMGLCBR",
+    "Test_Temperature": 276.9,
+    "Test_Power": 476.09
+  },
+  "results": {
+    "Apparent_Thermal_Impedance": 431.54
+  }
+}
