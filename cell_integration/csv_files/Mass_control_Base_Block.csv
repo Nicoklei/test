@@ -1,0 +1,7 @@
+,component,componentType,stage,testType,date,runNumber,passed,problems,result1_key,result1_value,result2_key,result2_value
+0,20UPBBB0000010,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Mass_control,18/12/2023,1.0,true,false,Base_Block_Mass,0.7574,Estimated_Ni_Mass,0
+1,20UPBBB0000011,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Mass_control,18/12/2023,1.0,true,false,Base_Block_Mass,0.7572,Estimated_Ni_Mass,0
+2,20UPBBB0000012,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Mass_control,18/12/2023,1.0,true,false,Base_Block_Mass,0.7567,Estimated_Ni_Mass,0
+3,20UPBBB0000022,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Mass_control,18/12/2023,1.0,true,false,Base_Block_Mass,0.7561,Estimated_Ni_Mass,0
+4,20UPBBB0000023,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Mass_control,18/12/2023,1.0,true,false,Base_Block_Mass,0.7555,Estimated_Ni_Mass,0
+5,20UPBBB0000024,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Mass_control,18/12/2023,1.0,true,false,Base_Block_Mass,0.7569,Estimated_Ni_Mass,0

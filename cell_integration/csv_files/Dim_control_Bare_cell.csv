@@ -1,0 +1,8 @@
+,component,componentType,stage,testType,date,runNumber,passed,problems,result1_key,result1_value,result2_key,result2_value,property1_key,property1_value,result3_key,result3_value
+0,,OB_BARE_MODULE_CELL,QC,Dimensional_Control,x,1.0,False,false,Pass/No_Pass,False,Glue+Cooling_Block_Thickness,x,Machine_Name,Eingabe?,Metrology_Report,Dummy
+1,,OB_BARE_MODULE_CELL,QC,Dimensional_Control,x,1.0,False,false,Pass/No_Pass,False,Glue+Cooling_Block_Thickness,x,Machine_Name,Eingabe?,Metrology_Report,Dummy
+2,,OB_BARE_MODULE_CELL,QC,Dimensional_Control,x,1.0,False,false,Pass/No_Pass,False,Glue+Cooling_Block_Thickness,x,Machine_Name,Eingabe?,Metrology_Report,Dummy
+3,,OB_BARE_MODULE_CELL,QC,Dimensional_Control,x,1.0,False,false,Pass/No_Pass,False,Glue+Cooling_Block_Thickness,x,Machine_Name,Eingabe?,Metrology_Report,Dummy
+4,,OB_BARE_MODULE_CELL,QC,Dimensional_Control,x,1.0,False,false,Pass/No_Pass,False,Glue+Cooling_Block_Thickness,x,Machine_Name,Eingabe?,Metrology_Report,Dummy
+5,,OB_BARE_MODULE_CELL,QC,Dimensional_Control,x,1.0,False,false,Pass/No_Pass,False,Glue+Cooling_Block_Thickness,x,Machine_Name,Eingabe?,Metrology_Report,Dummy
+6,,OB_BARE_MODULE_CELL,QC,Dimensional_Control,x,1.0,False,false,Pass/No_Pass,False,Glue+Cooling_Block_Thickness,x,Machine_Name,Eingabe?,Metrology_Report,Dummy

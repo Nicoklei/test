@@ -1,0 +1,8 @@
+,component,componentType,stage,testType,date,runNumber,passed,problems,result1_key,result1_value,property1_key,property1_value,result2_key,result2_value
+0,,OB_COOLING_BLOCK,QC,Dimensional_Control,2023-12-19,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+1,,OB_COOLING_BLOCK,QC,Dimensional_Control,2023-12-19,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+2,,OB_COOLING_BLOCK,QC,Dimensional_Control,2023-12-19,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+3,,OB_COOLING_BLOCK,QC,Dimensional_Control,2023-12-19,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+4,,OB_COOLING_BLOCK,QC,Dimensional_Control,2023-12-19,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+5,,OB_COOLING_BLOCK,QC,Dimensional_Control,2023-12-19,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+6,,OB_COOLING_BLOCK,QC,Dimensional_Control,2023-12-19,1.0,False,false,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy

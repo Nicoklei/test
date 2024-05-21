@@ -1,0 +1,722 @@
+Command: list_components
+item
+		id: 5ea70118540d56000a0910b7
+		code: bcbfc4adfaf4997aba5591c8686fa528
+		serialNumber: 20UPBCB0000003
+		alternativeIdentifier: dummy_cb_00
+		state: ready
+		dummy: False
+		userIdentity: 22-6602-1
+		assembled: False
+		reusable: False
+		currentGrade: null
+		grades (0)
+		reworked: False
+		reworkedTs: null
+		reworkedUserIdentity: null
+		completed: False
+		completedTs: null
+		completedUserIdentity: null
+		trashed: False
+		trashedTs: null
+		trashedUserIdentity: null
+		batches: null
+		children (0)
+		parents (0)
+		cts: 2020-04-27T15:58:16.353Z
+		institution: Tokyo Institute of Technology (TITECH)
+		currentLocation: Tokyo Institute of Technology (TITECH)
+		shipmentDestination:
+			...Printing unknown dict
+		project: Pixels (P)
+		subproject: Outer pixel barrel (PB)
+		componentType: OB Cooling Block (OB_COOLING_BLOCK)
+ 	Part Number (PART_NUMBER)
+ 	Machining Date (Machining_Date)
+		type: Dummy (DUMMY)
+		currentStage: Machining (MACHINING)
+		stages (18)
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2020-04-27T17:58:16+02:00
+				userIdentity: 22-6602-1
+				rework: null
+				comment: null
+				name: Machining
+			...Printing unknown dict
+				code: QC1
+				dateTime: 2020-06-08T07:16:32+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: QC
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2020-06-08T07:16:36+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: Machining
+			...Printing unknown dict
+				code: PACKAGE
+				dateTime: 2020-06-08T07:17:21+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+			...Printing unknown dict
+				code: QC1
+				dateTime: 2020-06-08T07:17:28+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: QC
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2020-06-08T07:20:33+02:00
+				userIdentity: 22-6602-1
+				rework: True
+				comment: 
+				name: Machining
+			...Printing unknown dict
+				code: QC1
+				dateTime: 2020-06-08T07:20:48+02:00
+				userIdentity: 22-6602-1
+				rework: True
+				comment: <uu5string /><UU5.Bricks.Div>a</UU5.Bricks.Div>
+				name: QC
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2020-06-08T07:20:57+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: Machining
+			...Printing unknown dict
+				code: SHIPMENT
+				dateTime: 2020-06-08T07:27:57+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+			...Printing unknown dict
+				code: QC1
+				dateTime: 2020-06-08T07:31:08+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: QC
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2020-06-15T07:20:54+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: Machining
+			...Printing unknown dict
+				code: SHIPMENT
+				dateTime: 2020-06-15T07:22:17+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+			...Printing unknown dict
+				code: QC1
+				dateTime: 2020-06-15T07:23:37+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: QC
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2020-06-15T07:23:50+02:00
+				userIdentity: 22-6602-1
+				rework: True
+				comment: 
+				name: Machining
+			...Printing unknown dict
+				code: QC1
+				dateTime: 2020-06-15T07:23:57+02:00
+				userIdentity: 22-6602-1
+				rework: True
+				comment: 
+				name: QC
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2020-06-15T07:24:04+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: Machining
+			...Printing unknown dict
+				code: QC1
+				dateTime: 2020-06-22T07:07:54+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: QC
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2020-06-22T07:08:04+02:00
+				userIdentity: 22-6602-1
+				rework: False
+				comment: null
+				name: Machining
+		properties (3)
+			UNKNOWN PROPERTY (MANUFACTURED_DATETIME) = 2020
+			Part Number (PART_NUMBER) = dummy_cb_00
+			UNKNOWN PROPERTY (SHIFTER_NAME) = Eunchong
+item
+		id: 5ea700a2540d56000a091049
+		code: 06bd373e3a1c180dc2492642f55262fa
+		serialNumber: 20UPBCB0000002
+		alternativeIdentifier: null
+		state: ready
+		dummy: False
+		userIdentity: 22-6602-1
+		assembled: null
+		reusable: null
+		currentGrade: null
+		grades (0)
+		reworked: False
+		reworkedTs: null
+		reworkedUserIdentity: null
+		completed: False
+		completedTs: null
+		completedUserIdentity: null
+		trashed: False
+		trashedTs: null
+		trashedUserIdentity: null
+		batches: null
+		children (0)
+		parents (1)
+			...Printing unknown dict
+				id: 5ea700a2540d56000a091045
+				state: ready
+				timestamp: null
+				order: 0
+				identity: null
+				component: 5ea700a2540d56000a091044
+				componentType: 5e5008e519b755000ad421bd
+				type: DUMMY
+				history: null
+		cts: 2020-04-27T15:56:18.454Z
+		institution: Tokyo Institute of Technology (TITECH)
+		currentLocation: Tokyo Institute of Technology (TITECH)
+		shipmentDestination:
+			...Printing unknown dict
+		project: Pixels (P)
+		subproject: Outer pixel barrel (PB)
+		componentType: OB Cooling Block (OB_COOLING_BLOCK)
+ 	Part Number (PART_NUMBER)
+ 	Machining Date (Machining_Date)
+		type: Dummy (DUMMY)
+		currentStage: Machining (MACHINING)
+		stages (1)
+			Machining (MACHINING)
+		properties (3)
+			UNKNOWN PROPERTY (SHIFTER_NAME) = None
+			UNKNOWN PROPERTY (MANUFACTURED_DATETIME) = None
+			Part Number (PART_NUMBER) = None
+item
+		id: 6018dfa25f2a42000a8d3394
+		code: 42a8a2546f6520cd6339c831e580726e
+		serialNumber: 20UPBCB0000105
+		alternativeIdentifier: 02
+		state: ready
+		dummy: False
+		userIdentity: 1948-7637-1
+		assembled: True
+		reusable: False
+		currentGrade: null
+		grades (0)
+		reworked: False
+		reworkedTs: 2021-02-02T05:25:09.363Z
+		reworkedUserIdentity: 1948-7637-1
+		completed: True
+		completedTs: 2021-02-02T05:26:40.476Z
+		completedUserIdentity: 1948-7637-1
+		trashed: False
+		trashedTs: null
+		trashedUserIdentity: null
+		batches: null
+		children (0)
+		parents (1)
+			...Printing unknown dict
+				id: 6018e4b85f2a42000a8d421a
+				state: ready
+				timestamp: 2021-02-02T05:36:31.394Z
+				order: 0
+				identity: 1948-7637-1
+				component: 6018e4b85f2a42000a8d4219
+				componentType: 5dc0b35409a66e000a50096d
+				type: DUMMY
+				history (1)
+					...Printing unknown dict
+						child: 6018dfa25f2a42000a8d3394
+						parentStage: RECEPTION
+						childStage: SHIPMENT
+						action: assembly
+						identity: 1948-7637-1
+						timestamp: 2021-02-02T05:36:31.394Z
+						properties (0)
+		cts: 2021-02-02T05:14:10.702Z
+		institution: CERN (CERN)
+		currentLocation: CERN (CERN)
+		shipmentDestination:
+			...Printing unknown dict
+		project: Pixels (P)
+		subproject: Outer pixel barrel (PB)
+		componentType: OB Cooling Block (OB_COOLING_BLOCK)
+ 	Part Number (PART_NUMBER)
+ 	Machining Date (Machining_Date)
+		type: Dummy (DUMMY)
+		currentStage: UNKNOWN STAGE (SHIPMENT)
+		stages (6)
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2021-02-02T05:14:10.682Z
+				userIdentity: 1948-7637-1
+				rework: null
+				comment: null
+				name: Machining
+			...Printing unknown dict
+				code: PACKAGE
+				dateTime: 2021-02-02T05:24:00.950Z
+				userIdentity: 1948-7637-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+			...Printing unknown dict
+				code: SHIPMENT
+				dateTime: 2021-02-02T05:24:15.708Z
+				userIdentity: 1948-7637-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+			...Printing unknown dict
+				code: QC1
+				dateTime: 2021-02-02T05:25:09.363Z
+				userIdentity: 1948-7637-1
+				rework: True
+				comment: 
+				name: QC
+			...Printing unknown dict
+				code: PACKAGE
+				dateTime: 2021-02-02T05:26:33.548Z
+				userIdentity: 1948-7637-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+			...Printing unknown dict
+				code: SHIPMENT
+				dateTime: 2021-02-02T05:26:40.457Z
+				userIdentity: 1948-7637-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+		properties (3)
+			Part Number (PART_NUMBER) = 02
+			UNKNOWN PROPERTY (SHIFTER_NAME) = Diego Alvarez
+			UNKNOWN PROPERTY (MANUFACTURED_DATETIME) = None
+item
+		id: 603f81de84d950000a790bdb
+		code: 32ae97999b6c15660299eb3a082dbf58
+		serialNumber: 20UPBCB0000106
+		alternativeIdentifier: 15
+		state: ready
+		dummy: False
+		userIdentity: 1948-7637-1
+		assembled: False
+		reusable: False
+		currentGrade: null
+		grades (0)
+		reworked: False
+		reworkedTs: null
+		reworkedUserIdentity: null
+		completed: False
+		completedTs: null
+		completedUserIdentity: null
+		trashed: False
+		trashedTs: null
+		trashedUserIdentity: null
+		batches: null
+		children (0)
+		parents (0)
+		cts: 2021-03-03T12:32:30.305Z
+		institution: CERN (CERN)
+		currentLocation: CERN (CERN)
+		shipmentDestination:
+			...Printing unknown dict
+		project: Pixels (P)
+		subproject: Outer pixel barrel (PB)
+		componentType: OB Cooling Block (OB_COOLING_BLOCK)
+ 	Part Number (PART_NUMBER)
+ 	Machining Date (Machining_Date)
+		type: Dummy (DUMMY)
+		currentStage: UNKNOWN STAGE (PACKAGE)
+		stages (2)
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2021-03-03T12:32:30.266Z
+				userIdentity: 1948-7637-1
+				rework: null
+				comment: null
+				name: Machining
+			...Printing unknown dict
+				code: PACKAGE
+				dateTime: 2021-03-03T12:33:03.163Z
+				userIdentity: 1948-7637-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+		properties (3)
+			Part Number (PART_NUMBER) = 15
+			UNKNOWN PROPERTY (SHIFTER_NAME) = DAF
+			UNKNOWN PROPERTY (MANUFACTURED_DATETIME) = None
+item
+		id: 60172c5f5f2a42000a8d1185
+		code: 144233555f4042b9fd4f3738f78c6b9b
+		serialNumber: 20UPBCB0000104
+		alternativeIdentifier: 1
+		state: ready
+		dummy: False
+		userIdentity: 1948-7637-1
+		assembled: True
+		reusable: False
+		currentGrade: null
+		grades (0)
+		reworked: False
+		reworkedTs: null
+		reworkedUserIdentity: null
+		completed: True
+		completedTs: 2021-01-31T22:17:16.908Z
+		completedUserIdentity: 1948-7637-1
+		trashed: False
+		trashedTs: null
+		trashedUserIdentity: null
+		batches: null
+		children (0)
+		parents (1)
+			...Printing unknown dict
+				id: 60172c8b5f2a42000a8d11ab
+				state: ready
+				timestamp: 2021-01-31T22:20:54.398Z
+				order: 0
+				identity: 1948-7637-1
+				component: 60172c8b5f2a42000a8d11aa
+				componentType: 5dc0b35409a66e000a50096d
+				type: DUMMY
+				history (1)
+					...Printing unknown dict
+						child: 60172c5f5f2a42000a8d1185
+						parentStage: RECEPTION
+						childStage: SHIPMENT
+						action: assembly
+						identity: 1948-7637-1
+						timestamp: 2021-01-31T22:20:54.398Z
+						properties (0)
+		cts: 2021-01-31T22:17:03.378Z
+		institution: CERN (CERN)
+		currentLocation: CERN (CERN)
+		shipmentDestination:
+			...Printing unknown dict
+		project: Pixels (P)
+		subproject: Outer pixel barrel (PB)
+		componentType: OB Cooling Block (OB_COOLING_BLOCK)
+ 	Part Number (PART_NUMBER)
+ 	Machining Date (Machining_Date)
+		type: Dummy (DUMMY)
+		currentStage: UNKNOWN STAGE (SHIPMENT)
+		stages (3)
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2021-01-31T22:17:03.357Z
+				userIdentity: 1948-7637-1
+				rework: null
+				comment: null
+				name: Machining
+			...Printing unknown dict
+				code: PACKAGE
+				dateTime: 2021-01-31T22:17:09.879Z
+				userIdentity: 1948-7637-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+			...Printing unknown dict
+				code: SHIPMENT
+				dateTime: 2021-01-31T22:17:16.904Z
+				userIdentity: 1948-7637-1
+				rework: False
+				comment: null
+				name: UNKNOWN STAGE
+		properties (3)
+			Part Number (PART_NUMBER) = 1
+			UNKNOWN PROPERTY (SHIFTER_NAME) = DAF
+			UNKNOWN PROPERTY (MANUFACTURED_DATETIME) = None
+item
+		id: 6544c12cff36a10042074187
+		code: b36c24926aec15d2c80c0565cb1cd846
+		serialNumber: 20UPBCB0000107
+		alternativeIdentifier: 0-0100
+		state: ready
+		dummy: False
+		userIdentity: 2710-4786-1
+		assembled: True
+		reusable: False
+		currentGrade: null
+		grades (0)
+		reworked: True
+		reworkedTs: 2023-11-03T12:18:04.428Z
+		reworkedUserIdentity: 2710-4786-1
+		completed: True
+		completedTs: 2023-11-03T12:18:04.428Z
+		completedUserIdentity: 2710-4786-1
+		trashed: False
+		trashedTs: null
+		trashedUserIdentity: null
+		batches: null
+		children (1)
+			...Printing unknown dict
+				id: f6fca8e47282fdfd1e4343bca1f413d5
+				order: 0
+				state: ready
+				timestamp: 2023-11-03T09:45:16.239Z
+				identity: 2710-4786-1
+				component: null
+				componentType: 5e5008e519b755000ad421bd
+				type: DUMMY
+				properties (0)
+				history: null
+		parents (1)
+			...Printing unknown dict
+				id: e1297b1ac94ae612651aaec450509992
+				component: 6544a8edff36a1004206f810
+				componentType: 5dc0b35409a66e000a50096d
+				type: DUMMY
+				timestamp: 2023-11-08T12:19:15.825Z
+				identity: 2710-4786-1
+				properties (0)
+				history (1)
+					...Printing unknown dict
+						component: 6544a8edff36a1004206f810
+						parentStage: ASSEMBLY
+						childStage: QC1
+						action: assembly
+						identity: 2710-4786-1
+						timestamp: 2023-11-08T12:19:15.825Z
+						properties (0)
+		cts: 2023-11-03T09:45:16.229Z
+		institution: University of Bonn (BONN)
+		currentLocation: University of Bonn (BONN)
+		shipmentDestination:
+			...Printing unknown dict
+				id: null
+		project: Pixels (P)
+		subproject: Outer pixel barrel (PB)
+		componentType: OB Cooling Block (OB_COOLING_BLOCK)
+ 	Part Number (PART_NUMBER)
+ 	Machining Date (Machining_Date)
+		type: Dummy (DUMMY)
+		currentStage: QC (QC1)
+		stages (2)
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2023-11-03T09:45:16.223Z
+				userIdentity: 2710-4786-1
+				rework: null
+				comment: null
+				name: Machining
+			...Printing unknown dict
+				code: QC1
+				dateTime: 2023-11-03T12:18:04.428Z
+				userIdentity: 2710-4786-1
+				rework: True
+				comment: 
+				name: QC
+		properties (2)
+			Part Number (PART_NUMBER) = 0-0100
+			Machining Date (Machining_Date) = 20.05.2022
+item
+		id: 654b9e0329ece10041b3f1cd
+		code: 356b91761ef582aff0c9534aa05fe394
+		serialNumber: 20UPBCB0000108
+		alternativeIdentifier: 0-0102
+		state: ready
+		dummy: False
+		userIdentity: 2710-4786-1
+		assembled: True
+		reusable: False
+		currentGrade: null
+		grades (0)
+		reworked: null
+		reworkedTs: null
+		reworkedUserIdentity: null
+		completed: False
+		completedTs: null
+		completedUserIdentity: null
+		trashed: False
+		trashedTs: null
+		trashedUserIdentity: null
+		batches: null
+		children (1)
+			...Printing unknown dict
+				id: 005f31149184b0ad1b8675c38d6e73b3
+				order: 0
+				state: ready
+				timestamp: 2023-11-08T14:41:07.901Z
+				identity: 2710-4786-1
+				component: null
+				componentType: 5e5008e519b755000ad421bd
+				type: DUMMY
+				properties (0)
+				history: null
+		parents (1)
+			...Printing unknown dict
+				id: 95031bc0aebbba6a9bcba83c1aeadae7
+				component: 653a83e2d2cf2100422fc1bb
+				componentType: 5dc0b35409a66e000a50096d
+				type: DUMMY
+				timestamp: 2023-11-08T14:54:31.266Z
+				identity: 2710-4786-1
+				properties (0)
+				history (1)
+					...Printing unknown dict
+						component: 653a83e2d2cf2100422fc1bb
+						parentStage: ASSEMBLY
+						childStage: MACHINING
+						action: assembly
+						identity: 2710-4786-1
+						timestamp: 2023-11-08T14:54:31.266Z
+						properties (0)
+		cts: 2023-11-08T14:41:07.867Z
+		institution: University of Bonn (BONN)
+		currentLocation: University of Bonn (BONN)
+		shipmentDestination:
+			...Printing unknown dict
+				id: null
+		project: Pixels (P)
+		subproject: Outer pixel barrel (PB)
+		componentType: OB Cooling Block (OB_COOLING_BLOCK)
+ 	Part Number (PART_NUMBER)
+ 	Machining Date (Machining_Date)
+		type: Dummy (DUMMY)
+		currentStage: Machining (MACHINING)
+		stages (1)
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2023-11-08T14:41:07.859Z
+				userIdentity: 2710-4786-1
+				rework: null
+				comment: null
+				name: Machining
+		properties (2)
+			Part Number (PART_NUMBER) = 0-0102
+			Machining Date (Machining_Date) = 2.8.2023
+item
+		id: 654e4af8b60c210041eaa78c
+		code: d0df75bda1973dbe60ba00564e46af41
+		serialNumber: 20UPBCB0000110
+		alternativeIdentifier: 0-0101
+		state: requestedToDelete
+		dummy: False
+		userIdentity: 2710-4786-1
+		assembled: False
+		reusable: False
+		currentGrade: null
+		grades (0)
+		reworked: null
+		reworkedTs: null
+		reworkedUserIdentity: null
+		completed: False
+		completedTs: null
+		completedUserIdentity: null
+		trashed: False
+		trashedTs: null
+		trashedUserIdentity: null
+		batches: null
+		children (1)
+			...Printing unknown dict
+				id: 0d448cbdf92e859706aed546e3c695ee
+				order: 0
+				state: ready
+				timestamp: 2023-11-10T15:23:36.588Z
+				identity: 2710-4786-1
+				component: null
+				componentType: 5e5008e519b755000ad421bd
+				type: DUMMY
+				properties (0)
+				history: null
+		parents: null
+		cts: 2023-11-10T15:23:36.572Z
+		institution: University of Bonn (BONN)
+		currentLocation: University of Bonn (BONN)
+		shipmentDestination:
+			...Printing unknown dict
+				id: null
+		project: Pixels (P)
+		subproject: Outer pixel barrel (PB)
+		componentType: OB Cooling Block (OB_COOLING_BLOCK)
+ 	Part Number (PART_NUMBER)
+ 	Machining Date (Machining_Date)
+		type: Dummy (DUMMY)
+		currentStage: Machining (MACHINING)
+		stages (1)
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2023-11-10T15:23:36.560Z
+				userIdentity: 2710-4786-1
+				rework: null
+				comment: null
+				name: Machining
+		properties (2)
+			Part Number (PART_NUMBER) = 0-0101
+			Machining Date (Machining_Date) = 5
+item
+		id: 654ba743b60c210041d1b465
+		code: c3725b147e592f1d65f4b6097af86c04
+		serialNumber: 20UPBCB0000109
+		alternativeIdentifier: 0-0100
+		state: ready
+		dummy: False
+		userIdentity: 2710-4786-1
+		assembled: False
+		reusable: False
+		currentGrade: null
+		grades (0)
+		reworked: null
+		reworkedTs: null
+		reworkedUserIdentity: null
+		completed: False
+		completedTs: null
+		completedUserIdentity: null
+		trashed: False
+		trashedTs: null
+		trashedUserIdentity: null
+		batches: null
+		children (0)
+		parents: null
+		cts: 2023-11-08T15:20:35.177Z
+		institution: University of Bonn (BONN)
+		currentLocation: University of Bonn (BONN)
+		shipmentDestination:
+			...Printing unknown dict
+				id: null
+		project: Pixels (P)
+		subproject: Outer pixel barrel (PB)
+		componentType: OB Cooling Block (OB_COOLING_BLOCK)
+ 	Part Number (PART_NUMBER)
+ 	Machining Date (Machining_Date)
+		type: OB Cooling Block (OB_COOLING_BLOCK)
+		currentStage: Machining (MACHINING)
+		stages (1)
+			...Printing unknown dict
+				code: MACHINING
+				dateTime: 2023-11-08T15:20:35.164Z
+				userIdentity: 2710-4786-1
+				rework: null
+				comment: null
+				name: Machining
+		properties (2)
+			Part Number (PART_NUMBER) = 0-0100
+			Machining Date (Machining_Date) = 20.5.6465

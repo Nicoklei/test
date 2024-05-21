@@ -1,0 +1,4 @@
+,component,componentType,stage,testType,date,runNumber,passed,problems,result1_key,result1_value,result2_key,result2_value
+0,,OB_BARE_MODULE_CELL,QC,Visual_Inspection,x,1.0,True,false,Pictures_of_the_Bare_Cell,Dummy,Pass/No_Pass,True
+1,,OB_BARE_MODULE_CELL,QC,Visual_Inspection,x,1.0,True,false,Pictures_of_the_Bare_Cell,Dummy,Pass/No_Pass,True
+2,,OB_BARE_MODULE_CELL,QC,Visual_Inspection,x,1.0,True,false,Pictures_of_the_Bare_Cell,Dummy,Pass/No_Pass,True

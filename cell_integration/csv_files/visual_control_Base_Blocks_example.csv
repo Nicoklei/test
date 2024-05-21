@@ -1,0 +1,7 @@
+,component,componentType,stage,testType,date,runNumber,passed,problems,result1_key,result1_value,result2_key,result2_value
+0,20UPBBB0000004,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Visual_Inspection,02/01/2024,1.0,True,false,Base_Block_Pictures,Dummy,Pass/No_Pass,True
+1,20UPBBB0000005,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Visual_Inspection,02/01/2024,1.0,True,false,Base_Block_Pictures,Dummy,Pass/No_Pass,True
+2,20UPBBB0000006,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Visual_Inspection,02/01/2024,1.0,True,false,Base_Block_Pictures,Dummy,Pass/No_Pass,True
+3,20UPBBB0000007,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Visual_Inspection,02/01/2024,1.0,True,false,Base_Block_Pictures,Dummy,Pass/No_Pass,True
+4,20UPBBB0000008,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Visual_Inspection,02/01/2024,1.0,True,false,Base_Block_Pictures,Dummy,Pass/No_Pass,True
+5,20UPBBB0000009,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Visual_Inspection,02/01/2024,1.0,True,false,Base_Block_Pictures,Dummy,Pass/No_Pass,True

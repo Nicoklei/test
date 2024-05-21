@@ -1,0 +1,5 @@
+,project,subproject,institution,componentType,type,property1_key,property1_value,property2_key,property2_value,property3_key,property3_value,property4_key,property4_value
+0,P,PB,BONN,OB_PG_TILE,OB_PG_TILE,Delivery_Date,x,Supplier_Batch_Reference,x,PART_NUMBER,Eingabe erforderlich-0001,Package_Date,x
+1,P,PB,BONN,OB_PG_TILE,OB_PG_TILE,Delivery_Date,x,Supplier_Batch_Reference,x,PART_NUMBER,Eingabe erforderlich-0002,Package_Date,x
+2,P,PB,BONN,OB_PG_TILE,OB_PG_TILE,Delivery_Date,x,Supplier_Batch_Reference,x,PART_NUMBER,Eingabe erforderlich-0003,Package_Date,x
+3,P,PB,BONN,OB_PG_TILE,OB_PG_TILE,Delivery_Date,x,Supplier_Batch_Reference,x,PART_NUMBER,Eingabe erforderlich-0004,Package_Date,x

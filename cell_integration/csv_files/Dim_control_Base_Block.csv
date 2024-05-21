@@ -1,0 +1,8 @@
+,component,componentType,stage,testType,date,runNumber,passed,problems,result1_key,result1_value,property1_key,property1_value,result2_key,result2_value
+0,20UPBBB0000003,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+1,20UPBBB0000004,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+2,20UPBBB0000005,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+3,20UPBBB0000006,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+4,20UPBBB0000007,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+5,20UPBBB0000008,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,false,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+6,20UPBBB0000009,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,False,false,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
