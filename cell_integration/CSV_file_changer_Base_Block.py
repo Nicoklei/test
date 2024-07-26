@@ -17,30 +17,50 @@ def search_for_component(comp_type,SN):
     os.environ["ITK_DB_AUTH"] = "%s"%token
     dbAccess.token = os.getenv("ITK_DB_AUTH")
 
-    comp_data = {"project":"P","type":comp_type,"componentType":comp_type}
-    c_list = dbAccess.extractList("listComponents", method = "GET",
-            data = comp_data,
-            output = ["code","alternativeIdentifier","serialNumber"])
-    c_list_1 = np.array(c_list)
-    search_element = SN
     code = []
     Atlas_SN = []
+    recived_comp_type = []
 
-    for element in search_element:
-        try:
+    for i in SN:
+        comp_data = {"project":"P","component" : i, 'alternativeIdentifier': True,"type":comp_type,"componentType":comp_type}
+        c_list = dbAccess.extractList("getComponent", method = "GET",
+                data = comp_data)
+        #print(c_list)
+        if comp_type == c_list.get("componentType").get("code"):
+            code.append(c_list.get("code"))
+            Atlas_SN.append(c_list.get("serialNumber"))
+            recived_comp_type.append(c_list.get("componentType").get("code"))
+            print(c_list.get("code"), c_list.get("serialNumber"), c_list.get("alternativeIdentifier"), c_list.get("componentType").get("code"))
+        else:
+            print("Not the right component type")
+            #code.append(None)
+            #Atlas_SN.append(None)
+            #recived_comp_type.append(c_list.get("componentType").get("code"))
+            
+    return code, Atlas_SN, comp_type
+    #c_list_1 = np.array(c_list)
+    #print(c_list_1)
+    #search_element = SN
+    #for element in search_element:
+    #    try:
             #print(element)
-            comp_index = np.where(c_list_1[:,1] == element)
+    #        comp_index = np.where(c_list_1[:,1] == element)
+    #        print(comp_index)
             #print(comp_index, c_list_1[comp_index][0][0])
-            code.append(c_list_1[comp_index][0][0]), Atlas_SN.append(c_list_1[comp_index][0][2])
-            #print(code, Atlas_SN)
-            continue
-        except ValueError:
-            code.append(None),  Atlas_SN.append(None)
-            #print(code, Atlas_SN)
-        except IndexError:
-            code.append(None),  Atlas_SN.append(None)
-            #print(code, Atlas_SN)
-    return code, Atlas_SN
+    #        code.append(c_list_1[comp_index][0][0]), Atlas_SN.append(c_list_1[comp_index][0][2])
+    #        print(c_list_1[comp_index][0][0],c_list_1[comp_index][0][2])
+    #        print(code, Atlas_SN)
+    #        continue
+    #    except ValueError:
+    #        code.append(None),  Atlas_SN.append(None)
+    #        #print(code, Atlas_SN)
+    #    except IndexError:
+    #        code.append(None),  Atlas_SN.append(None)
+    #        #print(code, Atlas_SN)
+    #return code, Atlas_SN
+
+#code, serial_numbers, temp = search_for_component('OB_BASE_BLOCK', ['1-1430','1-2200','1-0120'])
+#print(code, serial_numbers, temp)
 
 def register_comp_csv(start, stop, comp_type, filename, sheet_name, file_save, skiprows=4, *args, **kwargs):
     '''
@@ -84,7 +104,7 @@ def register_comp_csv(start, stop, comp_type, filename, sheet_name, file_save, s
 
 
     df =  pd.DataFrame(data=register,columns=columns)
-    df.to_csv("csv_files/register_%s.csv"%file_save)
+    df.to_csv("csv_files/%s/register_%s.csv"%(file_save,file_save))
 
 
 #comp_stage = "QC"
@@ -111,14 +131,14 @@ def set_stage_csv(list_of_SN, comp_type, stage, file_save):
     creats: -CSV file that can be uploaded into the streamlit app in multi stage set
     '''
 
-    code, serial_numbers = search_for_component(comp_type,list_of_SN) #liste = ['1-0001','1-0002','1-0003']
+    code, serial_numbers, temp = search_for_component(comp_type,list_of_SN) #liste = ['1-0001','1-0002','1-0003']
     stage_csv = []
 
     for i in range(len(list_of_SN)):
         stage_csv.append((serial_numbers[i], stage)) #'QC_BEFORE_NI_COATING'
 
     df = pd.DataFrame(stage_csv,columns=['serialNumber','stage'])
-    df.to_csv('csv_files/stage_%s.csv'%file_save)
+    df.to_csv('csv_files/%s/stage_%s.csv'%(file_save,file_save))
 
 #print(register_comp_csv(4,8,'OB_BASE_BLOCK','ZW_PDBBareCells_P1_V4.xlsx', 4, 5, 7, property1_key='PART_NUMBER',property2_key='Machining_Date'))
 
