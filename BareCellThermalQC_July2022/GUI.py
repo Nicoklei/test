@@ -88,6 +88,7 @@ class MainWindow(QMainWindow):
 		layout009 = QHBoxLayout()
 		layout0010 = QHBoxLayout()
 		layout0011 = QHBoxLayout()
+		layout0012 = QHBoxLayout()
 
 		layout10 = QVBoxLayout()
 		layout101 = QHBoxLayout()
@@ -154,6 +155,8 @@ class MainWindow(QMainWindow):
 		values_graph_messung4 = np.array([])
 		global measurment_run_extra
 		measurment_run_extra = 0
+		global TFM_test_21
+		TFM_test_21 = 0.00
 		
 		##without hardware comment out##
 		data = [2,2,1,0]
@@ -187,7 +190,8 @@ class MainWindow(QMainWindow):
 		widgetl00L8 = QLabel("Peltier-Element Steuerung")
 		widgetl00L9 = QLabel("Heizspirale Steuerung")
 		widgetl00L10 = QLabel("Einstellungen zur Messung eines DUT")
-		widgetl00L11 = QLabel("Einstellungen des Messbereiches der ADC's")		
+		widgetl00L11 = QLabel("Einstellungen des Messbereiches der ADC's")	
+		widgetl00L12 = QLabel("Vergleichstest 21 starten \noder Vergleichswert eingeben:")		
 
 		## Buttons
 		self.widgetPB2 = QPushButton("Messung Starten")
@@ -200,6 +204,7 @@ class MainWindow(QMainWindow):
 		self.widgetPB10 = QPushButton("Messreihe weiterführen und gleichen Ordner weiterverwenden")
 		self.widgetPB11 = QPushButton("Graph Leeren")
 		self.widgetPB12 = QPushButton("Programm starten")
+		self.widgetPB13 = QPushButton("Vergleichstest 21 starten")
 
 		## Other functions
 		widget00SB1 = QSpinBox()
@@ -215,6 +220,7 @@ class MainWindow(QMainWindow):
 		widget00DSB1 = QDoubleSpinBox()
 		widget00DSB2 = QDoubleSpinBox()
 		widget00DSB3 = QDoubleSpinBox()
+		self.widget00DSB4 = QDoubleSpinBox()
 
 		widget00ChB1 = QCheckBox()
 		widget00ChB2 = QCheckBox()
@@ -320,6 +326,7 @@ class MainWindow(QMainWindow):
 		self.widgetPB10.clicked.connect(self.new_messurment_series)
 		self.widgetPB11.clicked.connect(self.clear_graph)
 		self.widgetPB12.clicked.connect(self.oh_no)
+		self.widgetPB13.clicked.connect(self.TFM_test_21_func)
 
 		widget00CB1.NoInsert
 		widget00CB1.addItems(["2,048V", "4,096V", "1,024V", "0,512V", "0,256V"])
@@ -349,6 +356,10 @@ class MainWindow(QMainWindow):
 		widget00DSB3.valueChanged.connect(self.thickness)
 		widget00DSB3.setValue(1.80)
 		widget00DSB3.setSuffix("mm")
+		self.widget00DSB4.setMinimum(0.00)
+		self.widget00DSB4.setMaximum(4.00)
+		self.widget00DSB4.valueChanged.connect(self.TFM_comparison)
+		self.widget00DSB4.setSuffix("cm²K/W")
 
 		widget00ChB1.stateChanged.connect(self.on_off_peltier)
 		widget00ChB2.stateChanged.connect(self.on_off_spirale)
@@ -365,7 +376,7 @@ class MainWindow(QMainWindow):
 
 		####sector11####
 		font7 = self.widgetl11L17.font()
-		font7.setPointSize(20)
+		font7.setPointSize(18)
 		self.widgetl11L17.setFont(font7)
 
 
@@ -440,6 +451,11 @@ class MainWindow(QMainWindow):
 		layout004.addWidget(self.widgetl00L6)
 		layout004.addWidget(self.widgetPB4)
 		layout00.addLayout(layout004)
+
+		layout0012.addWidget(widgetl00L12)
+		layout0012.addWidget(self.widgetPB13)
+		layout0012.addWidget(self.widget00DSB4)
+		layout00.addLayout(layout0012)
 
 		layout00.addWidget(self.widgetPB2)
 		layout00.addWidget(self.widgetl00L7)
@@ -547,7 +563,13 @@ class MainWindow(QMainWindow):
 		self.threadpool = QThreadPool()
 		
 		
-	
+
+
+
+	def TFM_comparison(self,i):
+		global TFM_test_21
+		TFM_test_21 = i
+
 
 	def oh_no(self):
 		#zeitanfang = time.time()
@@ -696,7 +718,7 @@ class MainWindow(QMainWindow):
 		self.widget01G.plot(x_values_graph,values_graph3, pen='g', name ='Sensor mitte unten')
 		self.widget01G.plot(x_values_graph,values_graph4, pen='r', name ='Sensor unten')
 		
-		if T1 >= 120:
+		if T1 >= 60:
 			d.set_channel(1)
 			time.sleep(0.05)
 			d.off()
@@ -704,7 +726,7 @@ class MainWindow(QMainWindow):
 			d.set_channel(2)
 			time.sleep(0.05)
 			d.off()
-		if T4 >= 50:
+		if T4 >= 30:
 			d.set_channel(1)
 			time.sleep(0.05)
 			d.off()
@@ -713,12 +735,12 @@ class MainWindow(QMainWindow):
 			time.sleep(0.05)
 			d.off()
 
-		zeitende = time.time()
+		#zeitende = time.time()
 		#print(zeitende-zeitanfang)
 
 		self.set_text(A)
 
-		name = 'Vorordner/Vollständige_Temp_Kurve_.txt'
+		name = 'Produktion/Vollständige_Temp_Kurve_.txt'
 		datei = open(name,'a')
 
 
@@ -734,7 +756,7 @@ class MainWindow(QMainWindow):
 		+'\n')
 
 		datei.close()
-		zeitende = time.time()
+		#zeitende = time.time()
 		#print(zeitende-zeitanfang)
 
 
@@ -860,22 +882,97 @@ class MainWindow(QMainWindow):
 		except:
 			self.widgetl00L6.setText("Das setzen der Range hat nicht \nfunktioniert. Verbindung testen")
 
+	def TFM_test_21_func(self):
+		global TFM_test_21
+
+		QApplication.processEvents()
+		self.widgetl11L17.setText("Test 21 Messung begonnen.\nBitte warte, dies dauert einige Minuten")
+		QApplication.processEvents()
+		go = 0
+
+		lam1 = []
+		lam2 = []
+		lam3 = []
+		var_lam1 = []
+		var_lam2 = []
+		var_lam3 = []
+
+		while go < 49:
+			dut = Dut("/home/cellqc/basil/examples/lab_devices/rs_hmp4040.yaml")
+			dut.init()
+			d = dut["PowerSupply"]
+			d.set_channel(2)
+			time.sleep(0.05)
+			vol = d.get_voltage()
+			time.sleep(0.05)
+			cur = d.get_current()
+
+			print(go)
+			data = [1,1,1,1]
+			A = adc_main.main("-c", data)
+
+			f1 = 1/(np.sqrt(100*((3.9083*10**(-3))**2*100+4*(-5.775*10**(-7))*((100*(A[0][0]/(A[5][0]-A[0][0])))-100))))*np.sqrt((A[0][0]/(A[5][0]-A[0][0]))**2*0.00324**2+((100*(A[0][0]/(A[5][0]-A[0][0])**2))**2*(A[5][1])**2)+((100*(A[5][0]/(A[0][0]-A[5][0])**2)))**2*(A[0][1])**2)+0.05
+			f2 = 1/(np.sqrt(100*((3.9083*10**(-3))**2*100+4*-5.775*10**(-7)*((100*(A[1][0]/(A[5][0]-A[1][0])))-100))))*np.sqrt((A[1][0]/(A[5][0]-A[1][0]))**2*0.00324**2+((100*(A[1][0]/(A[5][0]-A[1][0])**2))**2*(A[5][1])**2)+((100*(A[5][0]/(A[1][0]-A[5][0])**2)))**2*(A[1][1])**2)+0.05
+			f3 = 1/(np.sqrt(100*((3.9083*10**(-3))**2*100+4*-5.775*10**(-7)*((100*(A[2][0]/(A[5][0]-A[2][0])))-100))))*np.sqrt((A[2][0]/(A[5][0]-A[2][0]))**2*0.00324**2+((100*(A[2][0]/(A[5][0]-A[2][0])**2))**2*(A[5][1])**2)+((100*(A[5][0]/(A[2][0]-A[5][0])**2)))**2*(A[2][1])**2)+0.05
+			f4 = 1/(np.sqrt(100*((3.9083*10**(-3))**2*100+4*-5.775*10**(-7)*((100*(A[3][0]/(A[5][0]-A[3][0])))-100))))*np.sqrt((A[3][0]/(A[5][0]-A[3][0]))**2*0.00324**2+((100*(A[3][0]/(A[5][0]-A[3][0])**2))**2*(A[5][1])**2)+((100*(A[5][0]/(A[3][0]-A[5][0])**2)))**2*(A[3][1])**2)+0.05
 	
+			T1 = ((-3.9083*10**(-3)*100+np.sqrt((-3.9083*10**(-3)*100)**2-4*(-5.775*10**(-7)*100)*(100-(100*(A[0][0]/(A[5][0]-A[0][0]))))))/(2*(-5.775*10**(-7)*100)))
+			T2 = ((-3.9083*10**(-3)*100+np.sqrt((-3.9083*10**(-3)*100)**2-4*(-5.775*10**(-7)*100)*(100-(100*(A[1][0]/(A[5][0]-A[1][0]))))))/(2*(-5.775*10**(-7)*100)))
+			T3 = ((-3.9083*10**(-3)*100+np.sqrt((-3.9083*10**(-3)*100)**2-4*(-5.775*10**(-7)*100)*(100-(99.62*(A[2][0]/(A[5][0]-A[2][0]))))))/(2*(-5.775*10**(-7)*100)))
+			T4 = ((-3.9083*10**(-3)*100+np.sqrt((-3.9083*10**(-3)*100)**2-4*(-5.775*10**(-7)*100)*(100-(99.95*(A[3][0]/(A[5][0]-A[3][0]))))))/(2*(-5.775*10**(-7)*100)))
+
+			lam1 = np.append(lam1,(float(cur)*float(vol))/(T1-T2)*0.05/(0.0001*np.pi))
+			lam2 = np.append(lam2,(float(cur)*float(vol))/(T2-T3)*thick/(0.0001*np.pi))
+			lam3 = np.append(lam3,(float(cur)*float(vol))/(T3-T4)*0.05/(0.0001*np.pi))
+			var_lam1 = np.append(var_lam1,np.sqrt(((float(cur)*float(vol))/(T1-T2)**2*0.05/(0.0001*np.pi))**2*(f1**2+f2**2)))
+			var_lam2 = np.append(var_lam2,np.sqrt(((float(cur)*float(vol))/(T2-T3)**2*thick/(0.0001*np.pi))**2*(f2**2+f3**2)))
+			var_lam3 = np.append(var_lam3,np.sqrt(((float(cur)*float(vol))/(T3-T4)**2*0.05/(0.0001*np.pi))**2*(f3**2+f4**2)))
+			go += 1
+
+		print(len(lam3),len(var_lam3))
+		lambda1=np.sum(lam1/var_lam1**2)/np.sum(1/var_lam1**2)
+		lambda2=np.sum(lam2/var_lam2**2)/np.sum(1/var_lam2**2)
+		lambda3=np.sum(lam3/var_lam3**2)/np.sum(1/var_lam3**2)
+		QApplication.processEvents()
+		self.widgetl10L10.setText(str(round(lambda1,2))+'\t'+str(round(np.sqrt(1/np.sum(1/var_lam1**2)),2)))
+		self.widgetl10L11.setText(str(round(lambda2,2))+'\t'+str(round(np.sqrt(1/np.sum(1/var_lam2**2)),2)))
+		self.widgetl10L12.setText(str(round(lambda3,2))+'\t'+str(round(np.sqrt(1/np.sum(1/var_lam3**2)),2)))
+		
+
+		TFM_test_21 = (0.0092/lambda2-0.0076/lambda1)*(10**4)
+		TFM_error = np.sqrt((0.0092/(lambda2)**2)**2*(np.sqrt(1/np.sum(1/var_lam2**2)))**2+(0.0076/(lambda1)**2)**2*(np.sqrt(1/np.sum(1/var_lam1**2)))**2+(1/(lambda2)-1/(lambda1))**2*(0.0005)**2)*10**4
+
+		self.widget00DSB4.setValue(TFM_test_21.round(2))
+		print('TFM test 21:' + str(TFM_test_21.round(2)) + '+/-' + str(TFM_error.round(2)))
+
+		QApplication.processEvents()
+		self.widgetl11L17.setText("Test 21 Messung abgeschlossen")
+		QApplication.processEvents()
+
+
+
 	def start_messurment(self):
 		global measurment_run
 		global measurment_run_extra
 		global serial_number
+		global TFM_test_21
+
+		if TFM_test_21 == 0.00:
+			QApplication.processEvents()
+			self.widgetl11L17.setText("Keine Vergleichs TFM angegeben oder gemessen.\nMessung wird nicht durchgeführt.\nSollte eine Messung ohne Vergleichs TFM durchgeführt\nwerden, bitte 0.01cm²K/W eintragen")
+			return 0
 
 		QApplication.processEvents()
-		self.widgetl11L17.setText("Neue Messung begonnen.\nBitte warte, dies dauert einige Minuten")
+		self.widgetl11L17.setText("Neue Messung begonnen.\nBitte warten, dies dauert einige Minuten")
+		QApplication.processEvents()
 
 		try:
-			os.mkdir("Vorordner/%s"%(serial_number))
+			os.mkdir("Produktion/%s"%(serial_number))
 		except:
 			pass
 		go = 0
-		datei = open('Vorordner/%s/Messung%s_%s.txt'%(serial_number,measurment_run,serial_number),'w')
-		datei1 = open('Vorordner/Vollständige_Temp_Kurve_.txt','a')
+		datei = open('Produktion/%s/Messung%s_%s.txt'%(serial_number,measurment_run,serial_number),'w')
+		datei1 = open('Produktion/Vollständige_Temp_Kurve_.txt','a')
 		while go < how_often:
 			dut = Dut("/home/cellqc/basil/examples/lab_devices/rs_hmp4040.yaml")
 			dut.init()
@@ -933,7 +1030,7 @@ class MainWindow(QMainWindow):
 		#---------------Plot_Messung---------------#
 
 		# Load data
-		datafile = np.loadtxt('Vorordner/%s/Messung%s_%s.txt'%(serial_number,measurment_run,serial_number), delimiter='\t', unpack=True)
+		datafile = np.loadtxt('Produktion/%s/Messung%s_%s.txt'%(serial_number,measurment_run,serial_number), delimiter='\t', unpack=True)
 		a,da,b,db,c,dc,d,dd = 0,1,2,3,4,5,6,7
 		A,dA,B,dB,C,dC,D,dD = datafile[a],datafile[da],datafile[b],datafile[db],datafile[c],datafile[dc],datafile[d],datafile[dd]
 
@@ -956,10 +1053,10 @@ class MainWindow(QMainWindow):
 		plt.legend(loc='best')
 		plt.grid(True, which='major',linestyle='-', color='dimgray', lw=0.8)
 		plt.tight_layout()
-		plt.savefig('Vorordner/%s/Messung%s_%s.png'%(serial_number,measurment_run,serial_number))
+		plt.savefig('Produktion/%s/Messung%s_%s.png'%(serial_number,measurment_run,serial_number))
 
 		# Creat the document where Lambda, errors and other values are stored
-		datei = open('Vorordner/%s/Gemittelte_Werte_%s.txt'%(serial_number,serial_number),'a')
+		datei = open('Produktion/%s/Gemittelte_Werte_%s.txt'%(serial_number,serial_number),'a')
 
 		lam1, lam2, lam3=datafile[10],datafile[12],datafile[14]
 		var_lam1, var_lam2, var_lam3=datafile[11],datafile[13],datafile[15]
@@ -976,11 +1073,13 @@ class MainWindow(QMainWindow):
 		TFM_error=np.sqrt((0.0092/(lambda2)**2)**2*(np.sqrt(1/np.sum(1/var_lam2**2)))**2+(0.0076/(lambda1)**2)**2*(np.sqrt(1/np.sum(1/var_lam1**2)))**2+(1/(lambda2)-1/(lambda1))**2*(0.0005)**2)*10**4
 
 
-		datei.write(str(weigth[1])+'\t'+str(dweigth[1])
-		+'\t'+str((lambda1))+'\t'+str((np.sqrt(1/np.sum(1/var_lam1**2))))
-		+'\t'+str((lambda2))+'\t'+str((np.sqrt(1/np.sum(1/var_lam2**2))))
-		+'\t'+str((lambda3))+'\t'+str((np.sqrt(1/np.sum(1/var_lam3**2))))
-		+'\t'+str(TFM)+'\t'+str(TFM_error)
+		datei.write('Gewicht' +'\t'+ 'err' +'\t'+ 'lambda_1' +'\t'+ 'err' +'\t'+ 'lambda_2' +'\t'+ 'err' +'\t'+ 'lambda_3' +'\t'+ 'err' +'\t'+ 'TFM_DUT' +'\t'+ 'err' +'\t'+ 'TFM_test_21'
+		+'\n'+str(weigth[1])+'\t'+str(dweigth[1])
+		+'\t'+str((lambda1.round(3)))+'\t'+str((np.sqrt(1/np.sum(1/var_lam1**2))).round(3))
+		+'\t'+str((lambda2).round(3))+'\t'+str((np.sqrt(1/np.sum(1/var_lam2**2))).round(3))
+		+'\t'+str((lambda3).round(3))+'\t'+str((np.sqrt(1/np.sum(1/var_lam3**2))).round(3))
+		+'\t'+str(TFM.round(2))+'\t'+str(TFM_error.round(2))
+		+'\t'+str(TFM_test_21)
 		+'\n')
 
 		datei.close()
@@ -988,7 +1087,7 @@ class MainWindow(QMainWindow):
 
 		#---------------Plot_complet_temp_curve---------------#
 
-		datafile = np.loadtxt('Vorordner/Vollständige_Temp_Kurve_.txt', delimiter='\t', unpack=True)
+		datafile = np.loadtxt('Produktion/Vollständige_Temp_Kurve_.txt', delimiter='\t', unpack=True)
 		a,da,b,db,c,dc,d,dd = 0,1,2,3,4,5,6,7
 		A,dA,B,dB,C,dC,D,dD = datafile[a],datafile[da],datafile[b],datafile[db],datafile[c],datafile[dc],datafile[d],datafile[dd]
 
@@ -1010,10 +1109,10 @@ class MainWindow(QMainWindow):
 		plt.legend(loc='best')
 		plt.grid(True, which='major',linestyle='-', color='dimgray', lw=0.8)
 		plt.tight_layout()
-		plt.savefig('Vorordner/%s/Vollständige_Temp_Kurve_%s.png'%(serial_number,serial_number))
+		plt.savefig('Produktion/%s/Vollständige_Temp_Kurve_%s.png'%(serial_number,serial_number))
 
-		shutil.copy('Vorordner/Vollständige_Temp_Kurve_.txt', 'Vorordner/%s/Vollständige_Temp_Kurve_%s.txt'%(serial_number,serial_number))
-		os.remove('Vorordner/Vollständige_Temp_Kurve_.txt')
+		shutil.copy('Produktion/Vollständige_Temp_Kurve_.txt', 'Produktion/%s/Vollständige_Temp_Kurve_%s.txt'%(serial_number,serial_number))
+		os.remove('Produktion/Vollständige_Temp_Kurve_.txt')
 
 		measurment_run = 0
 		measurment_run_extra += 1
