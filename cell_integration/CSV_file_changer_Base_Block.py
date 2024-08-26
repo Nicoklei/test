@@ -140,6 +140,21 @@ def set_stage_csv(list_of_SN, comp_type, stage, file_save):
     df = pd.DataFrame(stage_csv,columns=['serialNumber','stage'])
     df.to_csv('csv_files/%s/stage_%s.csv'%(file_save,file_save))
 
+def shipping(list_of_SN, comp_type, file_save):
+    '''
+    needs:  -list of the alternitive identifiers
+            -the component type you want to change the stage of
+    creats: -CSV file that can be uploaded into the streamlit app in multi stage set
+    '''
+    code, serial_numbers, temp = search_for_component(comp_type, list_of_SN) #liste = ['1-0001','1-0002','1-0003']
+    stage_csv = []
+
+    for i in range(len(list_of_SN)):
+        stage_csv.append((serial_numbers[i])) #'QC_BEFORE_NI_COATING'
+
+    df = pd.DataFrame(stage_csv,columns=['serialNumber'])
+    df.to_csv('csv_files/%s/shipping_%s.csv'%(file_save,file_save))
+
 #print(register_comp_csv(4,8,'OB_BASE_BLOCK','ZW_PDBBareCells_P1_V4.xlsx', 4, 5, 7, property1_key='PART_NUMBER',property2_key='Machining_Date'))
 
 #liste = ['1-0001','1-0002','1-0003']

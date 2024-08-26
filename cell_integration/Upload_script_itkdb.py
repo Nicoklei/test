@@ -83,6 +83,8 @@ class MainWindow(QMainWindow):
         widget0PB2 = QPushButton("CSV Datei zur Stage erstellen")
         widget0PB2.clicked.connect(self.create_csv_file_set_stage)
 
+        widget0PB7 = QPushButton("CSV Datei zum Shippment erstellen")
+        widget0PB7.clicked.connect(self.create_shippment_csv)
 
         self.widgetl0L5 = QLabel("CSV Dateien für Tests erstellen")
         self.widgetl0L5.setFont(font)
@@ -97,6 +99,9 @@ class MainWindow(QMainWindow):
 
         self.widgetl0L9 = QLabel("Dateien zu EoS hochladen")
         self.widgetl0L9.setFont(font)
+        
+        self.widgetl0L14 = QLabel("CSV Datei für ein Shippment erstellen")
+        self.widgetl0L14.setFont(font)
 
         self.widgetl0L10 = QLabel("Datei Pfad zu Bildern (Name Bild: '1.****') eingeben, sonst wird \n'/Bilder_schneiden/Base_Block_pictures/' verwendet:")
         self.widget0LE4 = QLineEdit()
@@ -158,10 +163,13 @@ class MainWindow(QMainWindow):
         layout.addWidget(widget0PB3)
 
         layout.addWidget(self.widgetl0L9)
-        layout.addLayout(layout04)
-        layout.addLayout(layout05)
+        #layout.addLayout(layout04)
+        #layout.addLayout(layout05)
         layout.addWidget(widget0PB4)
         layout.addWidget(widget0PB5)
+        
+        layout.addWidget(self.widgetl0L14)
+        layout.addWidget(widget0PB7)
         
         layout.addWidget(self.widgetl0L12)
         layout06.addWidget(self.widgetl0L13)
@@ -341,7 +349,7 @@ class MainWindow(QMainWindow):
                         QApplication.processEvents()
                         list_of_alt_id = []
                         list_of_cells = range(int(serial_number_start[2:6]),int(serial_number_stop[2:6])+1)
-                        print(list_of_cells)
+                        #print(list_of_cells)
                         for serial_number in list_of_cells:
                             if serial_number<10:
                                 serial_number = "1-000%s"%serial_number
@@ -352,11 +360,46 @@ class MainWindow(QMainWindow):
                             elif 999<serial_number<10000:
                                 serial_number = "1-%s"%serial_number
                             list_of_alt_id.append(serial_number)
-                        print(list_of_alt_id)
+                        #print(list_of_alt_id)
                         reg_BB.set_stage_csv(list_of_alt_id, comp_type, comp_stage, file_save)
                         self.widgetl0L4.setText("Die CSV Datei für die Stage wurde erstellt")
                 else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
             else: self.widgetl0L4.setText("Ein Start Serien Nummer muss ausgewählt werden")
+
+
+    def create_shippment_csv(self):
+        global list_of_alt_id
+        global comp_type
+        global serial_number_start
+        global serial_number_stop
+        global file_save
+
+        if comp_type == "Keine Komponente ausgewählt":
+            self.widgetl0L4.setText("Ein Komponenten Typ muss ausgewählt werden")
+        else:
+            if serial_number_start != None:
+                if serial_number_stop != None:
+                        self.widgetl0L4.setText("Die CSV Datei für das Shippment wird erstellt. Bitte warten")
+                        QApplication.processEvents()
+                        list_of_alt_id = []
+                        list_of_cells = range(int(serial_number_start[2:6]),int(serial_number_stop[2:6])+1)
+                        #print(list_of_cells)
+                        for serial_number in list_of_cells:
+                            if serial_number<10:
+                                serial_number = "1-000%s"%serial_number
+                            elif 9<serial_number<100:
+                                serial_number = "1-00%s"%serial_number
+                            elif 99<serial_number<1000:
+                                serial_number = "1-0%s"%serial_number
+                            elif 999<serial_number<10000:
+                                serial_number = "1-%s"%serial_number
+                            list_of_alt_id.append(serial_number)
+                        #print(list_of_alt_id)
+                        reg_BB.shipping(list_of_alt_id, comp_type, file_save)
+                        self.widgetl0L4.setText("Die CSV Datei für das Shippment wurde erstellt")
+                else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
+            else: self.widgetl0L4.setText("Ein Start Serien Nummer muss ausgewählt werden")
+
 
     def get_test_type(self,s):
         '''
