@@ -239,7 +239,7 @@ def thread_check_test(start, stop, comp_type, comp_stage, filename, sheet_name, 
 def thermal_cycling_test(start, stop, comp_type, comp_stage, filename, sheet_name, file_save, altid_name, skiprows=4, *args):
     '''
     -args take columns of the excel table. First value needs to be the component alternative identifier
-    second one needs to be the date, everything else should always be the hard coded values
+    second one needs to be the date, everything else should and is always a hard coded value in here
     '''
     df = pd.read_excel(filename, sheet_name=sheet_name,skiprows=skiprows, usecols=args)
     array = df.to_numpy()

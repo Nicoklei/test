@@ -19,7 +19,6 @@ import Base_Block_test_results as BB_test
 serial_number_stop = None
 serial_number_start = None
 list_of_alt_id = None
-filename = '/home/loaded_cell_qc/sciebo - Klein, Nico (s6nnklei@uni-bonn.de)@uni-bonn.sciebo.de/CERN_Doku/P1/P1_Doku/ZW_PDBBareCells_P1_V5_2024-05-27.xlsx'
 comp_type = "Keine Komponente ausgewählt"
 test_type = "Keinen Test ausgewählt"
 access_code1 = 'i*zgiVKdXn2wPZ€'
@@ -262,10 +261,14 @@ class MainWindow(QMainWindow):
         
     def get_pre_pro(self,s):
         global pre_production_id
+        global filename
         if s == "Produktion":
             pre_production_id = '1'
+            filename = '/home/loaded_cell_qc/sciebo - Klein, Nico (s6nnklei@uni-bonn.de)@uni-bonn.sciebo.de/CERN_Doku/P1/P1_Doku/ZW_PDBBareCells_P1_V5_2024-05-27.xlsx'
         elif s == "Pre-Produktion":
             pre_production_id = '0'
+            filename = '/home/loaded_cell_qc/sciebo - Klein, Nico (s6nnklei@uni-bonn.de)@uni-bonn.sciebo.de/CERN_Doku/P0/P0_Doku/ZW_PDBBareCells_Quali-0_2023-09-28.xlsx'
+
             
             
     def get_comp_type(self,s):
@@ -310,32 +313,56 @@ class MainWindow(QMainWindow):
             altid_name = "CB"
         
         elif comp_type == "OB_BARE_MODULE_CELL":
-            comp_stage = "QC"
-            sheet_name = 'ZW BC Zuordnung PGT Zuordnung'
-            col_1 = 0
-            col_2 = 2 #pre 1
-            col_3 = 6 #pre 5
-            col_5 = 8 #pre 7
-            col_6 = 9 #pre 8
-            cols = (col_1, col_2, col_3, col_5, col_6)
-            kwargs_comp_type = {"property1_key":'PART_NUMBER', "property2_key":'PACKAGE_DATE', "property3_key":'Assembly_Date', "property5_key":'Assembly_Tool_Identified', "property6_key":'ASSEMBLY_TOOL_POSITION'}
-            file_save = "Bare_Cell"
-            altid_name = "BC"
-            assemble_altid = ('BC', 'CB', 'PGT')
-            assemble_children = {"child1":'OB_COOLING_BLOCK', "child2":'OB_PG_TILE'}
+            if pre_production_id == '0':
+                comp_stage = "QC"
+                sheet_name = 'ZW BC Zuordnung PGT Zuordnung'
+                col_1 = 0
+                col_2 = 1
+                col_3 = 5
+                col_5 = 7
+                col_6 = 8
+                cols = (col_1, col_2, col_3, col_5, col_6)
+                kwargs_comp_type = {"property1_key":'PART_NUMBER', "property2_key":'PACKAGE_DATE', "property3_key":'Assembly_Date', "property5_key":'Assembly_Tool_Identified', "property6_key":'ASSEMBLY_TOOL_POSITION'}
+                file_save = "Bare_Cell"
+                altid_name = "BC"
+                assemble_altid = ('BC', 'CB', 'PGT')
+                assemble_children = {"child1":'OB_COOLING_BLOCK', "child2":'OB_PG_TILE'}
+            else:
+                comp_stage = "QC"
+                sheet_name = 'ZW BC Zuordnung PGT Zuordnung'
+                col_1 = 0
+                col_2 = 2 
+                col_3 = 6 
+                col_5 = 8
+                col_6 = 9
+                cols = (col_1, col_2, col_3, col_5, col_6)
+                kwargs_comp_type = {"property1_key":'PART_NUMBER', "property2_key":'PACKAGE_DATE', "property3_key":'Assembly_Date', "property5_key":'Assembly_Tool_Identified', "property6_key":'ASSEMBLY_TOOL_POSITION'}
+                file_save = "Bare_Cell"
+                altid_name = "BC"
+                assemble_altid = ('BC', 'CB', 'PGT')
+                assemble_children = {"child1":'OB_COOLING_BLOCK', "child2":'OB_PG_TILE'}
 
         elif comp_type == "OB_PG_TILE":
-            comp_stage = "QC1"
-            sheet_name = 'ZW BC Zuordnung PGT Zuordnung'
-            col_1 = 0
-            col_2 = 2 #pre 1
-            col_3 = 4 #pre 3
-            cols = (col_1, col_2, col_3)
-            kwargs_comp_type = {"property1_key":'PART_NUMBER', "property2_key":'Delivery_Date', "property3_key":'Supplier_Batch_Reference'}
-            file_save = "PG_Tile"
-            altid_name = "PGT"
-
-
+            if pre_production_id == '0':
+                comp_stage = "QC1"
+                sheet_name = 'ZW BC Zuordnung PGT Zuordnung'
+                col_1 = 0
+                col_2 = 1
+                col_3 = 3
+                cols = (col_1, col_2, col_3)
+                kwargs_comp_type = {"property1_key":'PART_NUMBER', "property2_key":'Delivery_Date', "property3_key":'Supplier_Batch_Reference'}
+                file_save = "PG_Tile"
+                altid_name = "PGT"
+            else:
+                comp_stage = "QC1"
+                sheet_name = 'ZW BC Zuordnung PGT Zuordnung'
+                col_1 = 0
+                col_2 = 2
+                col_3 = 4
+                cols = (col_1, col_2, col_3)
+                kwargs_comp_type = {"property1_key":'PART_NUMBER', "property2_key":'Delivery_Date', "property3_key":'Supplier_Batch_Reference'}
+                file_save = "PG_Tile"
+                altid_name = "PGT"
 
 
 
@@ -471,13 +498,22 @@ class MainWindow(QMainWindow):
                 cols_test = (col_1, col_2, col_3)
                 kwargs_test_type = {"result1_key":'MASS'}
             elif comp_type == "OB_PG_TILE":
-                comp_stage = "QC1"
-                sheet_name_test = 'ZW BC Zuordnung PGT Zuordnung'
-                col_1 = 0
-                col_2 = 2 #pre 1
-                col_3 = 5 #pre 4
-                cols_test = (col_1, col_2, col_3)
-                kwargs_test_type = {"result1_key":'MASS'}
+                if pre_production_id == '0':
+                    comp_stage = "QC1"
+                    sheet_name_test = 'ZW BC Zuordnung PGT Zuordnung'
+                    col_1 = 0
+                    col_2 = 1
+                    col_3 = 4
+                    cols_test = (col_1, col_2, col_3)
+                    kwargs_test_type = {"result1_key":'MASS'}
+                else:
+                    comp_stage = "QC1"
+                    sheet_name_test = 'ZW BC Zuordnung PGT Zuordnung'
+                    col_1 = 0
+                    col_2 = 2
+                    col_3 = 5
+                    cols_test = (col_1, col_2, col_3)
+                    kwargs_test_type = {"result1_key":'MASS'}
             elif comp_type == "OB_BARE_MODULE_CELL":
                 comp_stage = "QC"
                 sheet_name_test = 'DATA Bare Cell'
@@ -496,9 +532,8 @@ class MainWindow(QMainWindow):
                 col_2 = 1
                 col_3 = 3
                 col_4 = 4
-                col_5 = 5  #not in pre
-                cols_test = (col_1, col_2, col_3, col_4, col_5)
-                kwargs_test_type = {"result1_key":'Pass/No_Pass', "result2_key": 'THICKNESS', "property1_key":'Machine_Name'}
+                cols_test = (col_1, col_2, col_3, col_4)
+                kwargs_test_type = {"result1_key":'Pass/No_Pass', "result2_key": 'THICKNESS'}
             elif comp_type == "OB_COOLING_BLOCK":
                 comp_stage = "QC"
                 sheet_name_test = 'ZW Cooling Blocks-Geometrie'
@@ -530,23 +565,39 @@ class MainWindow(QMainWindow):
 
         elif test_type == "Visuelle Kontrolle":
             if comp_type == "OB_BASE_BLOCK":
-                comp_stage = "QC_BEFORE_NI_COATING"
-                sheet_name_test = 'ZW Base Blocks-Sichtprüfung' #no such file in pre
-                col_1 = 0
-                col_2 = 1
-                col_3 = 4
-                cols_test = (col_1, col_2, col_3)
+                if pre_production_id == '0':
+                    comp_stage = "QC_BEFORE_NI_COATING"
+                    sheet_name_test = 'ZW Base Blocks-Geometrie'
+                    col_1 = 0
+                    col_2 = 1
+                    col_3 = 3 
+                    cols_test = (col_1, col_2, col_3)
+                else:
+                    comp_stage = "QC_BEFORE_NI_COATING"
+                    sheet_name_test = 'ZW Base Blocks-Sichtprüfung'
+                    col_1 = 0
+                    col_2 = 1
+                    col_3 = 4 
+                    cols_test = (col_1, col_2, col_3)
             elif comp_type == "OB_COOLING_BLOCK":
                 self.widgetl0L4.setText("Kein solcher Test für Cooling Blocks")
             elif comp_type == "OB_PG_TILE":
                 self.widgetl0L4.setText("Kein solcher Test für PG Tiles")
             elif comp_type == "OB_BARE_MODULE_CELL":
-                comp_stage = "QC"
-                sheet_name_test = 'CERN Bare Module Cell'
-                col_1 = 2
-                col_2 = 6
-                col_3 = 12 #pre 11
-                cols_test = (col_1, col_2, col_3)
+                if pre_production_id == '0':
+                    comp_stage = "QC"
+                    sheet_name_test = 'CERN Bare Module Cell'
+                    col_1 = 2
+                    col_2 = 6
+                    col_3 = 11
+                    cols_test = (col_1, col_2, col_3)
+                else:
+                    comp_stage = "QC"
+                    sheet_name_test = 'CERN Bare Module Cell'
+                    col_1 = 2
+                    col_2 = 6
+                    col_3 = 12
+                    cols_test = (col_1, col_2, col_3)
 
         elif test_type == "Thread Check": # not one test uploaded in pre or normal sheet
             if comp_type == "OB_BASE_BLOCK":
@@ -586,14 +637,24 @@ class MainWindow(QMainWindow):
             elif comp_type == "OB_PG_TILE":
                 self.widgetl0L4.setText("Kein solcher Test für PG Tiles")
             elif comp_type == "OB_BARE_MODULE_CELL":
-                comp_stage = "QC"
-                sheet_name_test = 'CERN Bare Module Cell'
-                col_1 = 2
-                col_2 = 24 #pre 22
-                col_3 = 26 #pre 24
-                col_4 = 27 #pre 25
-                col_5 = 28 #pre 26
-                cols_test = (col_1, col_2, col_3, col_4, col_5)
+                if pre_production_id == '0':
+                    comp_stage = "QC"
+                    sheet_name_test = 'CERN Bare Module Cell'
+                    col_1 = 2
+                    col_2 = 22
+                    col_3 = 24
+                    col_4 = 25
+                    col_5 = 26
+                    cols_test = (col_1, col_2, col_3, col_4, col_5)
+                else:
+                    comp_stage = "QC"
+                    sheet_name_test = 'CERN Bare Module Cell'
+                    col_1 = 2
+                    col_2 = 24 
+                    col_3 = 26 
+                    col_4 = 27 
+                    col_5 = 28 
+                    cols_test = (col_1, col_2, col_3, col_4, col_5)
                 
                 
     def create_csv_file_upload_test(self):
