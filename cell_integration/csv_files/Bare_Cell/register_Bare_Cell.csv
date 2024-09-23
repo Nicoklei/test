@@ -1,0 +1,3 @@
+,project,subproject,institution,componentType,type,property1_key,property1_value,property2_key,property2_value,property3_key,property3_value,property5_key,property4_value,property6_key,property5_value
+0,P,PB,BONN,OB_BARE_MODULE_CELL,OB_BARE_MODULE_CELL,PART_NUMBER,BC1-0001,PACKAGE_DATE,2024-06-26,Assembly_Date,2024-06-27,Assembly_Tool_Identified,A,ASSEMBLY_TOOL_POSITION,01
+1,P,PB,BONN,OB_BARE_MODULE_CELL,OB_BARE_MODULE_CELL,PART_NUMBER,BC1-0002,PACKAGE_DATE,2024-06-26,Assembly_Date,2024-06-27,Assembly_Tool_Identified,A,ASSEMBLY_TOOL_POSITION,02

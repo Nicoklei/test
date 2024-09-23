@@ -34,9 +34,6 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        global serial_number
-
-
         #token = dbAccess.authenticate(accessCode1=access_code1, accessCode2=access_code2)
         #os.environ["ITK_DB_AUTH"] = "%s"%token
         #dbAccess.token = os.getenv("ITK_DB_AUTH")
@@ -58,12 +55,12 @@ class MainWindow(QMainWindow):
         self.widgetl0L1 = QLabel("Nummer der ersten zu speichernden Komponente eingeben:")
         self.widget0LE1 = QLineEdit()
         self.widget0LE1.textEdited.connect(self.text_edited_start)
-        self.widget0LE1.setInputMask('1-0000;_')
+        self.widget0LE1.setInputMask('0000;_')
 
         self.widgetl0L2 = QLabel("Nummer der letzten zu speichernden Komponente eingeben:")
         self.widget0LE2 = QLineEdit()
         self.widget0LE2.textEdited.connect(self.text_edited_stop)
-        self.widget0LE2.setInputMask('1-0000;_')
+        self.widget0LE2.setInputMask('0000;_')
 
         self.widgetl0L3 = QLabel("Name der File eingeben, sonst wird 'ZW_PDBBareCells_P1_V4.xlsx' genutzt:")
         self.widget0LE3 = QLineEdit()
@@ -72,6 +69,10 @@ class MainWindow(QMainWindow):
         widget0CB1 = QComboBox()
         widget0CB1.addItems(["Keine Komponente ausgewählt","OB_BARE_MODULE_CELL", "OB_COOLING_BLOCK", "OB_BASE_BLOCK", "OB_PG_TILE"])
         widget0CB1.currentTextChanged.connect(self.get_comp_type)
+        
+        widget0CB3 = QComboBox()
+        widget0CB3.addItems(["Produktion","Pre-Produktion"])
+        widget0CB3.currentTextChanged.connect(self.get_pre_pro)
 
 
         self.widgetl0L7 = QLabel("CSV Dateien für Registration und Stage erstellen")
@@ -85,12 +86,15 @@ class MainWindow(QMainWindow):
 
         widget0PB7 = QPushButton("CSV Datei zum Shippment erstellen")
         widget0PB7.clicked.connect(self.create_shippment_csv)
+        
+        widget0PB8 = QPushButton("CSV Datei zum Assemblen einer Komponente erstellen")
+        widget0PB8.clicked.connect(self.create_assemble_csv)
 
         self.widgetl0L5 = QLabel("CSV Dateien für Tests erstellen")
         self.widgetl0L5.setFont(font)
 
         widget0CB2 = QComboBox()
-        widget0CB2.addItems(["Keinen Test ausgewählt", "Massen Kontrolle", "Dimensions Kontrolle", "Visuelle Kontrolle", "Thread Check"])
+        widget0CB2.addItems(["Keinen Test ausgewählt", "Massen Kontrolle", "Dimensions Kontrolle", "Visuelle Kontrolle", "Thread Check", "Thermal Cycling", "Thermal Impedance"])
         widget0CB2.currentTextChanged.connect(self.get_test_type)
 
         widget0PB3 = QPushButton("CSV Datei zum ausgewählten Test erstellen")
@@ -100,7 +104,7 @@ class MainWindow(QMainWindow):
         self.widgetl0L9 = QLabel("Dateien zu EoS hochladen")
         self.widgetl0L9.setFont(font)
         
-        self.widgetl0L14 = QLabel("CSV Datei für ein Shippment erstellen")
+        self.widgetl0L14 = QLabel("CSV Datei zum Assemblen und Shippment erstellen")
         self.widgetl0L14.setFont(font)
 
         self.widgetl0L10 = QLabel("Datei Pfad zu Bildern (Name Bild: '1.****') eingeben, sonst wird \n'/Bilder_schneiden/Base_Block_pictures/' verwendet:")
@@ -149,6 +153,7 @@ class MainWindow(QMainWindow):
 
 
         layout.addWidget(self.widgetl0L6)
+        layout.addWidget(widget0CB3)
         layout.addLayout(layout01)
         layout.addLayout(layout02)
         layout.addLayout(layout03)
@@ -170,6 +175,7 @@ class MainWindow(QMainWindow):
         
         layout.addWidget(self.widgetl0L14)
         layout.addWidget(widget0PB7)
+        layout.addWidget(widget0PB8)
         
         layout.addWidget(self.widgetl0L12)
         layout06.addWidget(self.widgetl0L13)
@@ -223,29 +229,45 @@ class MainWindow(QMainWindow):
         global filename
         filename = s
         
+    def get_serial_numbers(self, altid_name):
+        global serial_number_start
+        global serial_number_stop
+        global pre_production_id
+        
+        list_of_alt_id = []
+        list_of_cells = range(int(serial_number_start),int(serial_number_stop)+1)
+        for serial_number in list_of_cells:
+            if serial_number<10:
+                serial_number = "%s%s-000%s"%(altid_name, pre_production_id, serial_number)
+            elif 9<serial_number<100:
+                serial_number = "%s%s-00%s"%(altid_name, pre_production_id, serial_number)
+            elif 99<serial_number<1000:
+                serial_number = "%s%s-0%s"%(altid_name, pre_production_id, serial_number)
+            elif 999<serial_number<10000:
+                serial_number = "%s%s-%s"%(altid_name, pre_production_id, serial_number)
+            list_of_alt_id.append(serial_number)
+        return list_of_alt_id
+        
     def delete_components(self):
         global del_reason
         global comp_type
-        global serial_number_stop
-        global serial_number_start
-        list_of_alt_id = []
-        list_of_cells = range(int(serial_number_start[2:6]),int(serial_number_stop[2:6])+1)
-        for serial_number in list_of_cells:
-            if serial_number<10:
-                serial_number = "1-000%s"%serial_number
-            elif 9<serial_number<100:
-                serial_number = "1-00%s"%serial_number
-            elif 99<serial_number<1000:
-                serial_number = "1-0%s"%serial_number
-            elif 999<serial_number<10000:
-                serial_number = "1-%s"%serial_number
-            list_of_alt_id.append(serial_number)        
+        global altid_name
+
+        list_of_alt_id = self.get_serial_numbers(altid_name)        
 
         BB_test.delete_component(comp_type, list_of_alt_id, del_reason)
         QApplication.processEvents()
         self.widgetl0L4.setText("Alle Komponenten erfolgreich gelöscht")
         QApplication.processEvents()
         
+    def get_pre_pro(self,s):
+        global pre_production_id
+        if s == "Produktion":
+            pre_production_id = '1'
+        elif s == "Pre-Produktion":
+            pre_production_id = '0'
+            
+            
     def get_comp_type(self,s):
         '''
 		Gets the type of the component you want
@@ -257,6 +279,10 @@ class MainWindow(QMainWindow):
         global kwargs_comp_type
         global comp_stage
         global file_save
+        global altid_name
+        global assemble_altid
+        global assemble_children
+        
         comp_type = s
         if comp_type == "Keine Komponente ausgewählt":
             return 0
@@ -270,6 +296,7 @@ class MainWindow(QMainWindow):
             cols = (col_1, col_2, col_3)
             kwargs_comp_type = {"property1_key":'MATERIAL_ROD_AL-G_SUPPLIER_REFERENCE' , "property2_key":'PART_NUMBER' , "property3_key":'Machining_Date'}
             file_save = "Base_Block"
+            altid_name = ""
 
         elif comp_type == "OB_COOLING_BLOCK":
             comp_stage = "QC"
@@ -280,29 +307,33 @@ class MainWindow(QMainWindow):
             cols = (col_1, col_2, col_3)
             kwargs_comp_type = {"property1_key":'MATERIAL_ROD_AL-G_SUPPLIER_REFERENCE' , "property2_key":'PART_NUMBER' , "property3_key":'Machining_Date'}
             file_save = "Cooling_Block"
+            altid_name = "CB"
         
         elif comp_type == "OB_BARE_MODULE_CELL":
             comp_stage = "QC"
             sheet_name = 'ZW BC Zuordnung PGT Zuordnung'
             col_1 = 0
-            col_2 = 2
-            col_3 = 6
-            col_5 = 8
-            col_6 = 9
+            col_2 = 2 #pre 1
+            col_3 = 6 #pre 5
+            col_5 = 8 #pre 7
+            col_6 = 9 #pre 8
             cols = (col_1, col_2, col_3, col_5, col_6)
             kwargs_comp_type = {"property1_key":'PART_NUMBER', "property2_key":'PACKAGE_DATE', "property3_key":'Assembly_Date', "property5_key":'Assembly_Tool_Identified', "property6_key":'ASSEMBLY_TOOL_POSITION'}
             file_save = "Bare_Cell"
+            altid_name = "BC"
+            assemble_altid = ('BC', 'CB', 'PGT')
+            assemble_children = {"child1":'OB_COOLING_BLOCK', "child2":'OB_PG_TILE'}
 
         elif comp_type == "OB_PG_TILE":
             comp_stage = "QC1"
-            sheet_name = 'DATA Bare Cell'
-            col_1 = 7
-            col_2 = 8
-            col_3 = 11
-            col_4 = 16
-            cols = (col_1, col_2, col_3, col_4)
-            kwargs_comp_type = {"property1_key":'Delivery_Date', "property2_key":'Supplier_Batch_Reference', "property3_key":'PART_NUMBER', "property4_key":'Package_Date'}
+            sheet_name = 'ZW BC Zuordnung PGT Zuordnung'
+            col_1 = 0
+            col_2 = 2 #pre 1
+            col_3 = 4 #pre 3
+            cols = (col_1, col_2, col_3)
+            kwargs_comp_type = {"property1_key":'PART_NUMBER', "property2_key":'Delivery_Date', "property3_key":'Supplier_Batch_Reference'}
             file_save = "PG_Tile"
+            altid_name = "PGT"
 
 
 
@@ -318,6 +349,7 @@ class MainWindow(QMainWindow):
         global serial_number_start
         global list_of_alt_id
         global file_save
+        global altid_name
 
         if comp_type == "Keine Komponente ausgewählt":
             self.widgetl0L4.setText("Ein Komponenten Typ muss ausgewählt werden")
@@ -326,7 +358,7 @@ class MainWindow(QMainWindow):
                 if serial_number_stop != None:
                     self.widgetl0L4.setText("Die CSV Datei wird erstellt. Bitte warten")
                     QApplication.processEvents()
-                    reg_BB.register_comp_csv(int(serial_number_start[2:6])-1,int(serial_number_stop[2:6]), comp_type, filename, sheet_name, file_save, skip_rows, cols, **kwargs_comp_type)
+                    reg_BB.register_comp_csv(int(serial_number_start)-1,int(serial_number_stop), comp_type, filename, sheet_name, file_save, altid_name, skip_rows, cols, **kwargs_comp_type)
                     #register_comp_csv(4,8, "OB_BASE_BLOCK", 'ZW_PDBBareCells_P1_V4.xlsx', sheet_name, file_save, 4, col_1, col_2, **kwargs_Base_Block)
                     self.widgetl0L4.setText("Die CSV Datei ist erstellt")
                 else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
@@ -339,6 +371,7 @@ class MainWindow(QMainWindow):
         global serial_number_start
         global serial_number_stop
         global file_save
+        global altid_name
 
         if comp_type == "Keine Komponente ausgewählt":
             self.widgetl0L4.setText("Ein Komponenten Typ muss ausgewählt werden")
@@ -347,20 +380,9 @@ class MainWindow(QMainWindow):
                 if serial_number_stop != None:
                         self.widgetl0L4.setText("Die CSV Datei für die Stage wird erstellt. Bitte warten")
                         QApplication.processEvents()
-                        list_of_alt_id = []
-                        list_of_cells = range(int(serial_number_start[2:6]),int(serial_number_stop[2:6])+1)
-                        #print(list_of_cells)
-                        for serial_number in list_of_cells:
-                            if serial_number<10:
-                                serial_number = "1-000%s"%serial_number
-                            elif 9<serial_number<100:
-                                serial_number = "1-00%s"%serial_number
-                            elif 99<serial_number<1000:
-                                serial_number = "1-0%s"%serial_number
-                            elif 999<serial_number<10000:
-                                serial_number = "1-%s"%serial_number
-                            list_of_alt_id.append(serial_number)
-                        #print(list_of_alt_id)
+                        
+                        list_of_alt_id = self.get_serial_numbers(altid_name)
+                        
                         reg_BB.set_stage_csv(list_of_alt_id, comp_type, comp_stage, file_save)
                         self.widgetl0L4.setText("Die CSV Datei für die Stage wurde erstellt")
                 else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
@@ -373,6 +395,7 @@ class MainWindow(QMainWindow):
         global serial_number_start
         global serial_number_stop
         global file_save
+        global altid_name
 
         if comp_type == "Keine Komponente ausgewählt":
             self.widgetl0L4.setText("Ein Komponenten Typ muss ausgewählt werden")
@@ -381,22 +404,36 @@ class MainWindow(QMainWindow):
                 if serial_number_stop != None:
                         self.widgetl0L4.setText("Die CSV Datei für das Shippment wird erstellt. Bitte warten")
                         QApplication.processEvents()
-                        list_of_alt_id = []
-                        list_of_cells = range(int(serial_number_start[2:6]),int(serial_number_stop[2:6])+1)
-                        #print(list_of_cells)
-                        for serial_number in list_of_cells:
-                            if serial_number<10:
-                                serial_number = "1-000%s"%serial_number
-                            elif 9<serial_number<100:
-                                serial_number = "1-00%s"%serial_number
-                            elif 99<serial_number<1000:
-                                serial_number = "1-0%s"%serial_number
-                            elif 999<serial_number<10000:
-                                serial_number = "1-%s"%serial_number
-                            list_of_alt_id.append(serial_number)
-                        #print(list_of_alt_id)
+
+                        list_of_alt_id = self.get_serial_numbers(altid_name)
+                        
                         reg_BB.shipping(list_of_alt_id, comp_type, file_save)
                         self.widgetl0L4.setText("Die CSV Datei für das Shippment wurde erstellt")
+                else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
+            else: self.widgetl0L4.setText("Ein Start Serien Nummer muss ausgewählt werden")
+
+    def create_assemble_csv(self):
+        global list_of_alt_id
+        global comp_type
+        global serial_number_start
+        global serial_number_stop
+        global file_save
+        global assemble_altid
+        global assemble_children
+        
+
+        if comp_type == "Keine Komponente ausgewählt":
+            self.widgetl0L4.setText("Ein Komponenten Typ muss ausgewählt werden")
+        else:
+            if serial_number_start != None:
+                if serial_number_stop != None:
+                        self.widgetl0L4.setText("Die CSV Datei zum Assemblen wird erstellt. Bitte warten")
+                        QApplication.processEvents()
+
+                        list_of_alt_id = self.get_serial_numbers(altid_name="")
+                        
+                        reg_BB.assembly(list_of_alt_id, comp_type, file_save, *assemble_altid, **assemble_children)
+                        self.widgetl0L4.setText("Die CSV Datei zum Assemblen wurde erstellt")
                 else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
             else: self.widgetl0L4.setText("Ein Start Serien Nummer muss ausgewählt werden")
 
@@ -408,10 +445,6 @@ class MainWindow(QMainWindow):
 		'''
         global test_type
         global sheet_name_test
-        global col_1
-        global col_2
-        global col_3
-        global col_4
         global comp_stage
         global comp_type
         global kwargs_test_type
@@ -439,19 +472,19 @@ class MainWindow(QMainWindow):
                 kwargs_test_type = {"result1_key":'MASS'}
             elif comp_type == "OB_PG_TILE":
                 comp_stage = "QC1"
-                sheet_name_test = 'DATA Bare Cell'
-                col_1 = 11
-                col_2 = 13
-                col_3 = 15
+                sheet_name_test = 'ZW BC Zuordnung PGT Zuordnung'
+                col_1 = 0
+                col_2 = 2 #pre 1
+                col_3 = 5 #pre 4
                 cols_test = (col_1, col_2, col_3)
                 kwargs_test_type = {"result1_key":'MASS'}
             elif comp_type == "OB_BARE_MODULE_CELL":
                 comp_stage = "QC"
                 sheet_name_test = 'DATA Bare Cell'
                 col_1 = 4
-                col_2 = 29
-                col_3 = 30
-                col_4 = 31
+                col_2 = 23 
+                col_3 = 31 
+                col_4 = 32
                 cols_test = (col_1, col_2, col_3, col_4)
                 kwargs_test_type = {"result1_key":'Cell_Mass', "result2_key":"Estimated_Glue_Mass"}
 
@@ -462,9 +495,10 @@ class MainWindow(QMainWindow):
                 col_1 = 0
                 col_2 = 1
                 col_3 = 3
-                col_4 = 5  
-                cols_test = (col_1, col_2, col_3, col_4)
-                kwargs_test_type = {"result1_key":'Pass/No_Pass', "property1_key":'Machine_Name', "result2_key":'Metrology_Report'}
+                col_4 = 4
+                col_5 = 5  #not in pre
+                cols_test = (col_1, col_2, col_3, col_4, col_5)
+                kwargs_test_type = {"result1_key":'Pass/No_Pass', "result2_key": 'THICKNESS', "property1_key":'Machine_Name'}
             elif comp_type == "OB_COOLING_BLOCK":
                 comp_stage = "QC"
                 sheet_name_test = 'ZW Cooling Blocks-Geometrie'
@@ -473,7 +507,7 @@ class MainWindow(QMainWindow):
                 col_3 = 3
                 col_4 = 4
                 cols_test = (col_1, col_2, col_3, col_4)
-                kwargs_test_type = {"result1_key":'Pass/No_Pass', "result2_key":'THICKNESS', "result3_key":'Metrology_Report'}
+                kwargs_test_type = {"result1_key":'Pass/No_Pass', "result2_key":'THICKNESS'}
             elif comp_type == "OB_PG_TILE":
                 comp_stage = "QC1"
                 sheet_name_test = 'ZW BC-PGT Maße übertragen'
@@ -483,7 +517,7 @@ class MainWindow(QMainWindow):
                 col_4 = 4
                 col_5 = 5
                 cols_test = (col_1, col_2, col_3, col_4, col_5)
-                kwargs_test_type = {"result1_key":'Pass/No_Pass', "result2_key":"WIDTH", "result3_key":"THICKNESS", "result4_key":"LENGTH"}
+                kwargs_test_type = {"result1_key":"THICKNESS", "result2_key":"WIDTH", "result3_key":"LENGTH"}
             elif comp_type == "OB_BARE_MODULE_CELL":
                 comp_stage = "QC"
                 sheet_name_test = 'DATA Bare Cell'
@@ -491,19 +525,17 @@ class MainWindow(QMainWindow):
                 col_2 = 16
                 col_3 = 18
                 col_4 = 22
-                col_5 = 25 #nachfragen, ob Machine_name eingetragen werden kann in excel tabelle
-                cols_test = (col_1, col_2, col_3, col_4, col_5)
-                kwargs_test_type = {"result1_key":'Pass/No_Pass', "result2_key":"Glue+Cooling_Block_Thickness", "property1_key":"Machine_Name", "result3_key":"Metrology_Report"}
-
-
+                cols_test = (col_1, col_2, col_3, col_4)
+                kwargs_test_type = {"result1_key":'Pass/No_Pass', "result2_key":"Glue+Cooling_Block_Thickness"}
 
         elif test_type == "Visuelle Kontrolle":
             if comp_type == "OB_BASE_BLOCK":
                 comp_stage = "QC_BEFORE_NI_COATING"
-                sheet_name_test = 'ZW Base Blocks-Sichtprüfung'
+                sheet_name_test = 'ZW Base Blocks-Sichtprüfung' #no such file in pre
                 col_1 = 0
                 col_2 = 1
                 col_3 = 4
+                cols_test = (col_1, col_2, col_3)
             elif comp_type == "OB_COOLING_BLOCK":
                 self.widgetl0L4.setText("Kein solcher Test für Cooling Blocks")
             elif comp_type == "OB_PG_TILE":
@@ -513,9 +545,10 @@ class MainWindow(QMainWindow):
                 sheet_name_test = 'CERN Bare Module Cell'
                 col_1 = 2
                 col_2 = 6
-                col_3 = 12
+                col_3 = 12 #pre 11
+                cols_test = (col_1, col_2, col_3)
 
-        elif test_type == "Thread Check":
+        elif test_type == "Thread Check": # not one test uploaded in pre or normal sheet
             if comp_type == "OB_BASE_BLOCK":
                 self.widgetl0L4.setText("Kein solcher Test für Base Blocks")
             elif comp_type == "OB_COOLING_BLOCK":
@@ -524,19 +557,48 @@ class MainWindow(QMainWindow):
                 col_1 = 0
                 col_2 = 2
                 col_3 = 4
-                col_4 = 5  
+                col_4 = 5 
+                cols_test = (col_1, col_2, col_3, col_4)
             elif comp_type == "OB_PG_TILE":
                 self.widgetl0L4.setText("Kein solcher Test für PG Tiles")
             elif comp_type == "OB_BARE_MODULE_CELL":
-                self.widgetl0L4.setText("Kein solcher Test für Bare Cells Tiles")
+                self.widgetl0L4.setText("Kein solcher Test für Bare Cells")
 
+        elif test_type == "Thermal Cycling":
+            if comp_type == "OB_BASE_BLOCK":
+                self.widgetl0L4.setText("Kein solcher Test für Base Blocks")
+            elif comp_type == "OB_COOLING_BLOCK":
+                self.widgetl0L4.setText("Kein solcher Test für Cooling Blocks")
+            elif comp_type == "OB_PG_TILE":
+                self.widgetl0L4.setText("Kein solcher Test für PG Tiles")
+            elif comp_type == "OB_BARE_MODULE_CELL":
+                comp_stage = "QC"
+                sheet_name_test = 'CERN Bare Module Cell'
+                col_1 = 2
+                col_2 = 6
+                cols_test = (col_1, col_2)
+                
+        elif test_type == "Thermal Impedance":
+            if comp_type == "OB_BASE_BLOCK":
+                self.widgetl0L4.setText("Kein solcher Test für Base Blocks")
+            elif comp_type == "OB_COOLING_BLOCK":
+                self.widgetl0L4.setText("Kein solcher Test für Cooling Blocks")
+            elif comp_type == "OB_PG_TILE":
+                self.widgetl0L4.setText("Kein solcher Test für PG Tiles")
+            elif comp_type == "OB_BARE_MODULE_CELL":
+                comp_stage = "QC"
+                sheet_name_test = 'CERN Bare Module Cell'
+                col_1 = 2
+                col_2 = 24 #pre 22
+                col_3 = 26 #pre 24
+                col_4 = 27 #pre 25
+                col_5 = 28 #pre 26
+                cols_test = (col_1, col_2, col_3, col_4, col_5)
+                
+                
     def create_csv_file_upload_test(self):
         global test_type
         global sheet_name_test
-        global col_1
-        global col_2
-        global col_3
-        global col_4
         global comp_stage
         global comp_type
         global serial_number_start
@@ -544,6 +606,7 @@ class MainWindow(QMainWindow):
         global filename
         global file_save
         global cols_test
+        global altid_name
         if comp_type == "Keine Komponente ausgewählt":
             self.widgetl0L4.setText("Ein Komponenten Typ muss ausgewählt werden")
         else:
@@ -556,22 +619,30 @@ class MainWindow(QMainWindow):
                     elif test_type == "Massen Kontrolle":
                         self.widgetl0L4.setText("Die CSV Datei für den Masse Test wird erstellt. Bitte warten")
                         QApplication.processEvents()
-                        BB_test.mass_control_test(int(serial_number_start[2:6]),int(serial_number_stop[2:6]), comp_type, comp_stage, filename, sheet_name_test, file_save, skip_rows, cols_test, **kwargs_test_type)
+                        BB_test.mass_control_test(int(serial_number_start),int(serial_number_stop), comp_type, comp_stage, filename, sheet_name_test, file_save, altid_name, skip_rows, *cols_test, **kwargs_test_type)
                         self.widgetl0L4.setText("Die CSV Datei für den Masse Test wurde erstellt")
                     elif test_type == "Dimensions Kontrolle":
                         self.widgetl0L4.setText("Die CSV Datei für den Dimensions Test wird erstellt. Bitte warten")
                         QApplication.processEvents()
-                        BB_test.dim_control_test(int(serial_number_start[2:6]),int(serial_number_stop[2:6]), comp_type, comp_stage, filename, sheet_name_test, file_save, skip_rows, cols_test, **kwargs_test_type)
+                        BB_test.dim_control_test(int(serial_number_start),int(serial_number_stop), comp_type, comp_stage, filename, sheet_name_test, file_save, altid_name, skip_rows, *cols_test, **kwargs_test_type)
                         self.widgetl0L4.setText("Die CSV Datei für den Dimensions Test wurde erstellt")
                     elif test_type == "Visuelle Kontrolle":
                         self.widgetl0L4.setText("Die CSV Datei für den Visuellen Test wird erstellt. Bitte warten")
                         QApplication.processEvents()
-                        BB_test.visual_control_test(int(serial_number_start[2:6]),int(serial_number_stop[2:6]), comp_type, comp_stage, filename, sheet_name_test, col_1, col_2, col_3, file_save)
+                        BB_test.visual_control_test(int(serial_number_start),int(serial_number_stop), comp_type, comp_stage, filename, sheet_name_test, file_save, altid_name, skip_rows, *cols_test)
                         self.widgetl0L4.setText("Die CSV Datei für den Visuellen Test wurde erstellt")
                     elif test_type == "Thread Check":
                         self.widgetl0L4.setText("Die CSV Datei für den Thread Check test wird erstellt. Bitte warten")
                         QApplication.processEvents()
-                        BB_test.thread_check_test(int(serial_number_start[2:6]),int(serial_number_stop[2:6]), comp_type, comp_stage, filename, sheet_name_test, col_1, col_2, col_3, col_4, file_save)
+                        BB_test.thread_check_test(int(serial_number_start),int(serial_number_stop), comp_type, comp_stage, filename, sheet_name_test, file_save, altid_name, skip_rows, *cols_test)
+                    elif test_type == "Thermal Cycling":
+                        self.widgetl0L4.setText("Die CSV Datei für den Thermal Cycling test wird erstellt. Bitte warten")
+                        QApplication.processEvents()
+                        BB_test.thermal_cycling_test(int(serial_number_start),int(serial_number_stop), comp_type, comp_stage, filename, sheet_name_test, file_save, altid_name, skip_rows, *cols_test)
+                    elif test_type == "Thermal Impedance":
+                        self.widgetl0L4.setText("Die CSV Datei für den Thermal Impedance test wird erstellt. Bitte warten")
+                        QApplication.processEvents()
+                        BB_test.thermal_impedance_test(int(serial_number_start),int(serial_number_stop), comp_type, comp_stage, filename, sheet_name_test, file_save, altid_name, skip_rows, *cols_test)
                 else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
             else: self.widgetl0L4.setText("Ein Start Serien Nummer muss ausgewählt werden")
 
@@ -582,6 +653,7 @@ class MainWindow(QMainWindow):
         global serial_number_stop
         global picture_path
         global comp_stage
+        global altid_name
 
         if picture_path == None:
             if comp_type == "OB_BASE_BLOCK":
@@ -598,23 +670,15 @@ class MainWindow(QMainWindow):
                 if serial_number_stop != None:
                         self.widgetl0L4.setText("Die Bilder für den Visuellen Test werden hochgeladen. Bitte warten")
                         QApplication.processEvents()
-                        list_of_alt_id = []
-                        list_of_cells = range(int(serial_number_start[2:6]),int(serial_number_stop[2:6])+1)
+
+                        list_of_alt_id = self.get_serial_numbers(altid_name)
+                        print(list_of_alt_id)
                         
-                        for serial_number in list_of_cells:
-                            if serial_number<10:
-                                serial_number = "1-000%s"%serial_number
-                            elif 9<serial_number<100:
-                                serial_number = "1-00%s"%serial_number
-                            elif 99<serial_number<1000:
-                                serial_number = "1-0%s"%serial_number
-                            elif 999<serial_number<10000:
-                                serial_number = "1-%s"%serial_number
-                            list_of_alt_id.append(serial_number)
                         code, serial_numbers, temp = BB_test.search_for_component(comp_type, list_of_alt_id)
+                        list_of_alt_id_clean = self.get_serial_numbers('')
                         for i in range(0,len(serial_numbers)):
-                            print(list_of_alt_id[i][2:6])
-                            BB_test.eos_upload_picture("%s1.%s.png"%(picture_path,list_of_alt_id[i][2:6]), serial_numbers[i], code[i], comp_stage)
+                            print(list_of_alt_id_clean[i][2:6])
+                            #BB_test.eos_upload_picture("%s1.%s.png"%(picture_path,list_of_alt_id_clean[i][2:6]), serial_numbers[i], code[i], comp_stage)
                         self.widgetl0L4.setText("Die Bilder für den Visuellen Test wurden hochgeladen")
                 else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
             else: self.widgetl0L4.setText("Ein Start Serien Nummer muss ausgewählt werden")
@@ -626,6 +690,7 @@ class MainWindow(QMainWindow):
         global serial_number_start
         global serial_number_stop
         global metro_path
+        global altid_name
 
         if metro_path == None:
             if comp_type == "OB_BASE_BLOCK":
@@ -643,22 +708,13 @@ class MainWindow(QMainWindow):
                 if serial_number_stop != None:
                         self.widgetl0L4.setText("Die Metrology reports werden hochgeladen. Bitte warten")
                         QApplication.processEvents()
-                        list_of_alt_id = []
-                        list_of_cells = range(int(serial_number_start[2:6]),int(serial_number_stop[2:6])+1)
+
+                        list_of_alt_id = self.get_serial_numbers(altid_name)
                         
-                        for serial_number in list_of_cells:
-                            if serial_number<10:
-                                serial_number = "1-000%s"%serial_number
-                            elif 9<serial_number<100:
-                                serial_number = "1-00%s"%serial_number
-                            elif 99<serial_number<1000:
-                                serial_number = "1-0%s"%serial_number
-                            elif 999<serial_number<10000:
-                                serial_number = "1-%s"%serial_number
-                            list_of_alt_id.append(serial_number)
                         code, serial_numbers, temp = BB_test.search_for_component(comp_type, list_of_alt_id)
+                        list_of_alt_id_clean = self.get_serial_numbers('')
                         for i in range(0,len(serial_numbers)):
-                            BB_test.eos_upload_metrology("%s%s.xlsx"%(metro_path,int(list_of_alt_id[i][2:6])), serial_numbers[i], code[i], comp_stage)
+                            BB_test.eos_upload_metrology("%s%s.xlsx"%(metro_path,int(list_of_alt_id_clean[i][2:6])), serial_numbers[i], code[i], comp_stage)
                         self.widgetl0L4.setText("Die Metrology reports wurden erfolgreich hochgeladen")
                 else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
             else: self.widgetl0L4.setText("Ein Start Serien Nummer muss ausgewählt werden")

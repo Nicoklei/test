@@ -1,0 +1,3 @@
+,component,componentType,stage,testType,date,runNumber,passed,problems,result1_key,result1_value,result2_key,result2_value
+0,20UPBBC0000005,OB_BARE_MODULE_CELL,QC,Dimensional_Control,08/07/2024,1.0,True,False,Pass/No_Pass,True,Glue+Cooling_Block_Thickness,0.812
+1,20UPBBC0000004,OB_BARE_MODULE_CELL,QC,Dimensional_Control,08/07/2024,1.0,False,False,Pass/No_Pass,False,Glue+Cooling_Block_Thickness,0.814

@@ -1,0 +1,3 @@
+,project,subproject,institution,componentType,type,property1_key,property1_value,property2_key,property2_value,property3_key,property3_value,property4_key,property4_value
+0,P,PB,BONN,OB_PG_TILE,OB_PG_TILE,Delivery_Date,2024-06-26,Supplier_Batch_Reference,23012,PART_NUMBER,PGT1-0001,Package_Date,2024-07-01
+1,P,PB,BONN,OB_PG_TILE,OB_PG_TILE,Delivery_Date,2024-06-26,Supplier_Batch_Reference,23012,PART_NUMBER,PGT1-0002,Package_Date,2024-07-01
