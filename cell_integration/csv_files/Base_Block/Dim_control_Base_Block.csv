@@ -1,426 +1,701 @@
-,component,componentType,stage,testType,date,runNumber,passed,problems,result1_key,result1_value,property1_key,property1_value,result2_key,result2_value
-0,20UPBBB0000031,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-1,20UPBBB0000032,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-2,20UPBBB0000033,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-3,20UPBBB0000034,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-4,20UPBBB0000035,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-5,20UPBBB0000036,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-6,20UPBBB0000037,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-7,20UPBBB0000038,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-8,20UPBBB0000039,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-9,20UPBBB0000040,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-10,20UPBBB0000041,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-11,20UPBBB0000042,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-12,20UPBBB0000043,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-13,20UPBBB0000044,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-14,20UPBBB0000045,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-15,20UPBBB0000046,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-16,20UPBBB0000047,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-17,20UPBBB0000048,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-18,20UPBBB0000049,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-19,20UPBBB0000050,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-20,20UPBBB0000051,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-21,20UPBBB0000052,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-22,20UPBBB0000053,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-23,20UPBBB0000054,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-24,20UPBBB0000055,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,19/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-25,20UPBBB0000056,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-26,20UPBBB0000057,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-27,20UPBBB0000058,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-28,20UPBBB0000059,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-29,20UPBBB0000060,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-30,20UPBBB0000061,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-31,20UPBBB0000062,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-32,20UPBBB0000063,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-33,20UPBBB0000064,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-34,20UPBBB0000065,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-35,20UPBBB0000066,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-36,20UPBBB0000067,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-37,20UPBBB0000068,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-38,20UPBBB0000069,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-39,20UPBBB0000070,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-40,20UPBBB0000071,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-41,20UPBBB0000072,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-42,20UPBBB0000073,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-43,20UPBBB0000074,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-44,20UPBBB0000075,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-45,20UPBBB0000076,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-46,20UPBBB0000077,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-47,20UPBBB0000078,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-48,20UPBBB0000079,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-49,20UPBBB0000080,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-50,20UPBBB0000081,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-51,20UPBBB0000082,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-52,20UPBBB0000083,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-53,20UPBBB0000084,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-54,20UPBBB0000085,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-55,20UPBBB0000086,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-56,20UPBBB0000087,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-57,20UPBBB0000088,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-58,20UPBBB0000089,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-59,20UPBBB0000090,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-60,20UPBBB0000091,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-61,20UPBBB0000092,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-62,20UPBBB0000093,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-63,20UPBBB0000094,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-64,20UPBBB0000095,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-65,20UPBBB0000096,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-66,20UPBBB0000097,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-67,20UPBBB0000098,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-68,20UPBBB0000099,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-69,20UPBBB0000100,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-70,20UPBBB0000101,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-71,20UPBBB0000102,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-72,20UPBBB0000103,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-73,20UPBBB0000104,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-74,20UPBBB0000105,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-75,20UPBBB0000106,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-76,20UPBBB0000107,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-77,20UPBBB0000108,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-78,20UPBBB0000109,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-79,20UPBBB0000110,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-80,20UPBBB0000111,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-81,20UPBBB0000112,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-82,20UPBBB0000113,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-83,20UPBBB0000114,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-84,20UPBBB0000115,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-85,20UPBBB0000116,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-86,20UPBBB0000117,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-87,20UPBBB0000118,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-88,20UPBBB0000119,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-89,20UPBBB0000120,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-90,20UPBBB0000121,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-91,20UPBBB0000122,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-92,20UPBBB0000123,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-93,20UPBBB0000124,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-94,20UPBBB0000125,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-95,20UPBBB0000126,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-96,20UPBBB0000127,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-97,20UPBBB0000128,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-98,20UPBBB0000129,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-99,20UPBBB0000130,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-100,20UPBBB0000131,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-101,20UPBBB0000132,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-102,20UPBBB0000133,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-103,20UPBBB0000134,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-104,20UPBBB0000135,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-105,20UPBBB0000136,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-106,20UPBBB0000137,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-107,20UPBBB0000138,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-108,20UPBBB0000139,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-109,20UPBBB0000140,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-110,20UPBBB0000141,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-111,20UPBBB0000142,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-112,20UPBBB0000143,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-113,20UPBBB0000144,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-114,20UPBBB0000145,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-115,20UPBBB0000146,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-116,20UPBBB0000147,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-117,20UPBBB0000148,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-118,20UPBBB0000149,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-119,20UPBBB0000150,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-120,20UPBBB0000151,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-121,20UPBBB0000152,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-122,20UPBBB0000153,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-123,20UPBBB0000154,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-124,20UPBBB0000155,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-125,20UPBBB0000156,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-126,20UPBBB0000157,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-127,20UPBBB0000158,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-128,20UPBBB0000159,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-129,20UPBBB0000160,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-130,20UPBBB0000161,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-131,20UPBBB0000162,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-132,20UPBBB0000163,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-133,20UPBBB0000164,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-134,20UPBBB0000165,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-135,20UPBBB0000166,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-136,20UPBBB0000167,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-137,20UPBBB0000168,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-138,20UPBBB0000169,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-139,20UPBBB0000170,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-140,20UPBBB0000171,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-141,20UPBBB0000172,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-142,20UPBBB0000173,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-143,20UPBBB0000174,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-144,20UPBBB0000175,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-145,20UPBBB0000176,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-146,20UPBBB0000177,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-147,20UPBBB0000178,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-148,20UPBBB0000179,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-149,20UPBBB0000180,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-150,20UPBBB0000181,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-151,20UPBBB0000182,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-152,20UPBBB0000183,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-153,20UPBBB0000184,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-154,20UPBBB0000185,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-155,20UPBBB0000186,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-156,20UPBBB0000187,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-157,20UPBBB0000188,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-158,20UPBBB0000189,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-159,20UPBBB0000190,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-160,20UPBBB0000191,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-161,20UPBBB0000192,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-162,20UPBBB0000193,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-163,20UPBBB0000194,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-164,20UPBBB0000195,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-165,20UPBBB0000196,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-166,20UPBBB0000197,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-167,20UPBBB0000198,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-168,20UPBBB0000199,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-169,20UPBBB0000200,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-170,20UPBBB0000201,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-171,20UPBBB0000202,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-172,20UPBBB0000203,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-173,20UPBBB0000204,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-174,20UPBBB0000205,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/12/2023,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-175,20UPBBB0000206,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-176,20UPBBB0000207,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-177,20UPBBB0000208,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-178,20UPBBB0000209,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-179,20UPBBB0000210,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-180,20UPBBB0000211,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-181,20UPBBB0000212,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-182,20UPBBB0000213,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-183,20UPBBB0000214,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-184,20UPBBB0000215,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-185,20UPBBB0000216,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-186,20UPBBB0000217,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-187,20UPBBB0000218,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-188,20UPBBB0000219,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-189,20UPBBB0000220,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-190,20UPBBB0000221,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-191,20UPBBB0000222,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-192,20UPBBB0000223,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-193,20UPBBB0000224,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-194,20UPBBB0000225,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-195,20UPBBB0000226,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-196,20UPBBB0000227,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-197,20UPBBB0000228,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-198,20UPBBB0000229,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-199,20UPBBB0000230,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-200,20UPBBB0000231,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-201,20UPBBB0000232,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-202,20UPBBB0000233,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-203,20UPBBB0000234,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-204,20UPBBB0000235,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-205,20UPBBB0000236,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-206,20UPBBB0000237,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-207,20UPBBB0000238,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-208,20UPBBB0000239,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-209,20UPBBB0000240,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-210,20UPBBB0000241,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-211,20UPBBB0000242,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-212,20UPBBB0000243,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-213,20UPBBB0000244,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-214,20UPBBB0000245,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-215,20UPBBB0000246,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-216,20UPBBB0000247,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-217,20UPBBB0000248,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-218,20UPBBB0000249,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-219,20UPBBB0000250,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-220,20UPBBB0000251,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-221,20UPBBB0000252,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-222,20UPBBB0000253,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-223,20UPBBB0000254,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-224,20UPBBB0000255,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-225,20UPBBB0000256,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-226,20UPBBB0000257,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-227,20UPBBB0000258,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-228,20UPBBB0000259,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-229,20UPBBB0000260,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-230,20UPBBB0000261,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-231,20UPBBB0000262,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-232,20UPBBB0000263,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-233,20UPBBB0000264,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-234,20UPBBB0000265,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-235,20UPBBB0000266,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-236,20UPBBB0000267,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-237,20UPBBB0000268,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-238,20UPBBB0000269,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-239,20UPBBB0000270,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-240,20UPBBB0000271,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-241,20UPBBB0000272,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-242,20UPBBB0000273,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-243,20UPBBB0000274,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-244,20UPBBB0000275,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-245,20UPBBB0000276,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-246,20UPBBB0000277,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-247,20UPBBB0000278,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-248,20UPBBB0000279,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-249,20UPBBB0000280,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-250,20UPBBB0000281,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-251,20UPBBB0000282,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-252,20UPBBB0000283,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-253,20UPBBB0000284,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-254,20UPBBB0000285,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-255,20UPBBB0000286,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-256,20UPBBB0000287,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-257,20UPBBB0000288,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-258,20UPBBB0000289,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-259,20UPBBB0000290,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-260,20UPBBB0000291,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-261,20UPBBB0000292,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-262,20UPBBB0000293,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-263,20UPBBB0000294,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-264,20UPBBB0000295,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-265,20UPBBB0000296,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-266,20UPBBB0000297,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-267,20UPBBB0000298,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-268,20UPBBB0000299,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-269,20UPBBB0000300,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-270,20UPBBB0000301,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-271,20UPBBB0000302,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-272,20UPBBB0000303,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-273,20UPBBB0000304,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-274,20UPBBB0000305,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,05/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-275,20UPBBB0000306,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-276,20UPBBB0000307,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-277,20UPBBB0000308,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-278,20UPBBB0000309,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-279,20UPBBB0000310,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-280,20UPBBB0000311,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-281,20UPBBB0000312,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-282,20UPBBB0000313,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-283,20UPBBB0000314,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-284,20UPBBB0000315,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-285,20UPBBB0000316,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-286,20UPBBB0000317,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-287,20UPBBB0000318,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-288,20UPBBB0000319,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-289,20UPBBB0000320,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-290,20UPBBB0000321,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-291,20UPBBB0000322,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-292,20UPBBB0000323,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-293,20UPBBB0000324,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-294,20UPBBB0000325,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-295,20UPBBB0000326,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-296,20UPBBB0000327,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-297,20UPBBB0000328,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-298,20UPBBB0000329,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-299,20UPBBB0000330,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-300,20UPBBB0000331,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-301,20UPBBB0000332,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-302,20UPBBB0000333,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-303,20UPBBB0000334,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-304,20UPBBB0000335,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-305,20UPBBB0000336,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-306,20UPBBB0000337,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-307,20UPBBB0000338,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-308,20UPBBB0000339,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-309,20UPBBB0000340,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-310,20UPBBB0000341,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-311,20UPBBB0000342,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-312,20UPBBB0000343,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-313,20UPBBB0000344,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-314,20UPBBB0000345,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-315,20UPBBB0000346,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-316,20UPBBB0000347,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-317,20UPBBB0000348,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-318,20UPBBB0000349,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-319,20UPBBB0000350,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-320,20UPBBB0000351,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-321,20UPBBB0000352,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-322,20UPBBB0000353,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-323,20UPBBB0000354,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-324,20UPBBB0000355,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,08/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-325,20UPBBB0000356,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-326,20UPBBB0000357,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-327,20UPBBB0000358,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-328,20UPBBB0000359,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-329,20UPBBB0000360,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-330,20UPBBB0000361,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-331,20UPBBB0000362,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-332,20UPBBB0000363,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-333,20UPBBB0000364,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-334,20UPBBB0000365,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-335,20UPBBB0000366,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-336,20UPBBB0000367,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-337,20UPBBB0000368,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-338,20UPBBB0000369,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-339,20UPBBB0000370,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-340,20UPBBB0000371,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-341,20UPBBB0000372,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-342,20UPBBB0000373,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-343,20UPBBB0000374,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-344,20UPBBB0000375,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-345,20UPBBB0000376,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-346,20UPBBB0000377,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-347,20UPBBB0000378,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-348,20UPBBB0000379,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-349,20UPBBB0000380,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-350,20UPBBB0000381,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-351,20UPBBB0000382,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-352,20UPBBB0000383,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-353,20UPBBB0000384,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-354,20UPBBB0000385,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-355,20UPBBB0000386,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-356,20UPBBB0000387,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-357,20UPBBB0000388,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-358,20UPBBB0000389,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-359,20UPBBB0000390,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-360,20UPBBB0000391,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-361,20UPBBB0000392,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-362,20UPBBB0000393,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-363,20UPBBB0000394,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-364,20UPBBB0000395,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-365,20UPBBB0000396,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-366,20UPBBB0000397,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-367,20UPBBB0000398,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-368,20UPBBB0000399,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-369,20UPBBB0000400,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-370,20UPBBB0000401,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-371,20UPBBB0000402,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-372,20UPBBB0000403,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-373,20UPBBB0000404,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-374,20UPBBB0000405,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,09/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-375,20UPBBB0000406,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-376,20UPBBB0000407,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-377,20UPBBB0000408,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-378,20UPBBB0000409,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-379,20UPBBB0000410,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-380,20UPBBB0000411,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-381,20UPBBB0000412,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-382,20UPBBB0000413,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-383,20UPBBB0000414,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-384,20UPBBB0000415,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-385,20UPBBB0000416,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-386,20UPBBB0000417,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-387,20UPBBB0000418,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-388,20UPBBB0000419,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-389,20UPBBB0000420,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-390,20UPBBB0000421,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-391,20UPBBB0000422,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-392,20UPBBB0000423,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-393,20UPBBB0000424,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-394,20UPBBB0000425,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-395,20UPBBB0000426,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-396,20UPBBB0000427,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-397,20UPBBB0000428,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-398,20UPBBB0000429,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-399,20UPBBB0000430,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-400,20UPBBB0000431,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-401,20UPBBB0000432,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-402,20UPBBB0000433,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-403,20UPBBB0000434,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-404,20UPBBB0000435,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-405,20UPBBB0000436,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-406,20UPBBB0000437,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-407,20UPBBB0000438,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-408,20UPBBB0000439,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-409,20UPBBB0000440,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-410,20UPBBB0000441,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-411,20UPBBB0000442,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-412,20UPBBB0000443,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-413,20UPBBB0000444,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-414,20UPBBB0000445,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-415,20UPBBB0000446,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-416,20UPBBB0000447,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-417,20UPBBB0000448,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-418,20UPBBB0000449,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-419,20UPBBB0000450,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-420,20UPBBB0000451,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-421,20UPBBB0000452,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-422,20UPBBB0000453,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,True,False,Pass/No_Pass,True,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-423,20UPBBB0000454,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
-424,20UPBBB0000455,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,10/01/2024,1.0,False,False,Pass/No_Pass,False,Machine_Name,HEXAGON Global Performance 09.15.08 /  Leitz_LSPX1H_T,Metrology_Report,Dummy
+,component,componentType,stage,testType,date,runNumber,passed,problems,result1_key,result1_value,result2_key,result2_value
+0,20UPBBB0001706,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+1,20UPBBB0001707,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+2,20UPBBB0001708,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+3,20UPBBB0001709,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+4,20UPBBB0001710,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+5,20UPBBB0001711,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+6,20UPBBB0001712,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+7,20UPBBB0001713,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+8,20UPBBB0001714,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+9,20UPBBB0001715,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+10,20UPBBB0001716,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+11,20UPBBB0001717,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+12,20UPBBB0001718,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+13,20UPBBB0001719,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+14,20UPBBB0001720,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+15,20UPBBB0001721,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+16,20UPBBB0001722,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+17,20UPBBB0001723,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+18,20UPBBB0001724,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+19,20UPBBB0001725,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+20,20UPBBB0001726,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+21,20UPBBB0001727,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+22,20UPBBB0001728,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+23,20UPBBB0001729,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+24,20UPBBB0001730,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+25,20UPBBB0001731,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+26,20UPBBB0001732,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+27,20UPBBB0001733,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+28,20UPBBB0001734,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+29,20UPBBB0001735,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,14/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+30,20UPBBB0001736,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+31,20UPBBB0001737,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+32,20UPBBB0001738,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+33,20UPBBB0001739,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+34,20UPBBB0001740,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+35,20UPBBB0001741,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+36,20UPBBB0001742,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+37,20UPBBB0001743,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+38,20UPBBB0001744,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+39,20UPBBB0001745,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+40,20UPBBB0001746,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+41,20UPBBB0001747,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+42,20UPBBB0001748,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.973
+43,20UPBBB0001749,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+44,20UPBBB0001750,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.936
+45,20UPBBB0001751,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.966
+46,20UPBBB0001752,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+47,20UPBBB0001753,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.98
+48,20UPBBB0001754,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+49,20UPBBB0001755,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+50,20UPBBB0001756,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+51,20UPBBB0001757,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+52,20UPBBB0001758,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+53,20UPBBB0001759,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+54,20UPBBB0001760,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+55,20UPBBB0001761,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+56,20UPBBB0001762,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+57,20UPBBB0001763,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+58,20UPBBB0001764,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+59,20UPBBB0001765,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+60,20UPBBB0001766,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+61,20UPBBB0001767,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+62,20UPBBB0001768,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+63,20UPBBB0001769,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+64,20UPBBB0001770,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+65,20UPBBB0001771,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.937
+66,20UPBBB0001772,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.007
+67,20UPBBB0001773,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+68,20UPBBB0001774,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+69,20UPBBB0001775,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+70,20UPBBB0001776,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+71,20UPBBB0001777,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+72,20UPBBB0001778,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+73,20UPBBB0001779,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+74,20UPBBB0001780,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+75,20UPBBB0001781,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+76,20UPBBB0001782,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+77,20UPBBB0001783,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+78,20UPBBB0001784,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+79,20UPBBB0001785,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,18/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.979
+80,20UPBBB0001786,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+81,20UPBBB0001787,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+82,20UPBBB0001788,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+83,20UPBBB0001789,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+84,20UPBBB0001790,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+85,20UPBBB0001791,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+86,20UPBBB0001792,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+87,20UPBBB0001793,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.984
+88,20UPBBB0001794,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+89,20UPBBB0001795,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+90,20UPBBB0001796,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+91,20UPBBB0001797,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+92,20UPBBB0001798,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+93,20UPBBB0001799,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.982
+94,20UPBBB0001800,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+95,20UPBBB0001801,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+96,20UPBBB0001802,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+97,20UPBBB0001803,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+98,20UPBBB0001804,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.968
+99,20UPBBB0001805,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+100,20UPBBB0001806,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+101,20UPBBB0001807,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+102,20UPBBB0001808,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+103,20UPBBB0001809,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+104,20UPBBB0001810,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+105,20UPBBB0001811,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+106,20UPBBB0001812,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+107,20UPBBB0001813,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+108,20UPBBB0001814,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+109,20UPBBB0001815,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+110,20UPBBB0001816,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+111,20UPBBB0001817,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+112,20UPBBB0001818,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+113,20UPBBB0001819,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+114,20UPBBB0001820,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+115,20UPBBB0001821,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+116,20UPBBB0001822,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+117,20UPBBB0001823,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+118,20UPBBB0001824,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+119,20UPBBB0001825,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+120,20UPBBB0001826,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+121,20UPBBB0001827,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+122,20UPBBB0001828,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+123,20UPBBB0001829,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+124,20UPBBB0001830,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+125,20UPBBB0001831,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+126,20UPBBB0001832,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+127,20UPBBB0001833,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+128,20UPBBB0001834,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+129,20UPBBB0001835,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,20/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+130,20UPBBB0001836,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+131,20UPBBB0001837,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+132,20UPBBB0001838,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+133,20UPBBB0001839,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+134,20UPBBB0001840,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+135,20UPBBB0001841,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.986
+136,20UPBBB0001842,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+137,20UPBBB0001843,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+138,20UPBBB0001844,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+139,20UPBBB0001845,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+140,20UPBBB0001846,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+141,20UPBBB0001847,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+142,20UPBBB0001848,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.04
+143,20UPBBB0001849,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.031
+144,20UPBBB0001850,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+145,20UPBBB0001851,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.953
+146,20UPBBB0001852,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+147,20UPBBB0001853,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+148,20UPBBB0001854,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.963
+149,20UPBBB0001855,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+150,20UPBBB0001856,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+151,20UPBBB0001857,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+152,20UPBBB0001858,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+153,20UPBBB0001859,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+154,20UPBBB0001860,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+155,20UPBBB0001861,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+156,20UPBBB0001862,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+157,20UPBBB0001863,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+158,20UPBBB0001864,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+159,20UPBBB0001865,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+160,20UPBBB0001866,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+161,20UPBBB0001867,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+162,20UPBBB0001868,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+163,20UPBBB0001869,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+164,20UPBBB0001870,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.974
+165,20UPBBB0001871,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+166,20UPBBB0001872,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+167,20UPBBB0001873,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+168,20UPBBB0001874,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+169,20UPBBB0001875,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+170,20UPBBB0001876,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+171,20UPBBB0001877,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+172,20UPBBB0001878,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+173,20UPBBB0001879,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+174,20UPBBB0001880,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+175,20UPBBB0001881,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+176,20UPBBB0001882,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+177,20UPBBB0001883,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+178,20UPBBB0001884,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+179,20UPBBB0001885,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+180,20UPBBB0001886,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+181,20UPBBB0001887,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+182,20UPBBB0001888,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+183,20UPBBB0001889,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+184,20UPBBB0001890,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+185,20UPBBB0001891,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+186,20UPBBB0001892,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+187,20UPBBB0001893,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+188,20UPBBB0001894,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+189,20UPBBB0001895,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.016
+190,20UPBBB0001896,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+191,20UPBBB0001897,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+192,20UPBBB0001898,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+193,20UPBBB0001899,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+194,20UPBBB0001900,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+195,20UPBBB0001901,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.046
+196,20UPBBB0001902,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+197,20UPBBB0001903,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+198,20UPBBB0001904,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.943
+199,20UPBBB0001905,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+200,20UPBBB0001906,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+201,20UPBBB0001907,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+202,20UPBBB0001908,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+203,20UPBBB0001909,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+204,20UPBBB0001910,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+205,20UPBBB0001911,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+206,20UPBBB0001912,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+207,20UPBBB0001913,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+208,20UPBBB0001914,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+209,20UPBBB0001915,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+210,20UPBBB0001916,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+211,20UPBBB0001917,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+212,20UPBBB0001918,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+213,20UPBBB0001919,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+214,20UPBBB0001920,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+215,20UPBBB0001921,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+216,20UPBBB0001922,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.017
+217,20UPBBB0001923,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+218,20UPBBB0001924,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+219,20UPBBB0001925,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+220,20UPBBB0001926,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+221,20UPBBB0001927,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+222,20UPBBB0001928,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+223,20UPBBB0001929,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+224,20UPBBB0001930,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+225,20UPBBB0001931,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+226,20UPBBB0001932,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+227,20UPBBB0001933,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+228,20UPBBB0001934,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,21/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+229,20UPBBB0001935,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.953
+230,20UPBBB0001936,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+231,20UPBBB0001937,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+232,20UPBBB0001938,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+233,20UPBBB0001939,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+234,20UPBBB0001940,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+235,20UPBBB0001941,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.019
+236,20UPBBB0001942,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+237,20UPBBB0001943,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+238,20UPBBB0001944,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+239,20UPBBB0001945,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+240,20UPBBB0001946,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+241,20UPBBB0001947,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+242,20UPBBB0001948,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.047
+243,20UPBBB0001949,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+244,20UPBBB0001950,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.954
+245,20UPBBB0001951,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+246,20UPBBB0001952,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+247,20UPBBB0001953,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+248,20UPBBB0001954,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+249,20UPBBB0001955,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+250,20UPBBB0001956,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+251,20UPBBB0001957,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+252,20UPBBB0001958,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+253,20UPBBB0001959,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+254,20UPBBB0001960,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+255,20UPBBB0001961,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+256,20UPBBB0001962,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+257,20UPBBB0001963,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.01
+258,20UPBBB0001964,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+259,20UPBBB0001965,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+260,20UPBBB0001966,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+261,20UPBBB0001967,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+262,20UPBBB0001968,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+263,20UPBBB0001969,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+264,20UPBBB0001970,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+265,20UPBBB0001971,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+266,20UPBBB0001972,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+267,20UPBBB0001973,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+268,20UPBBB0001974,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+269,20UPBBB0001975,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+270,20UPBBB0001976,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+271,20UPBBB0001977,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+272,20UPBBB0001978,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+273,20UPBBB0001979,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+274,20UPBBB0001980,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+275,20UPBBB0001981,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+276,20UPBBB0001982,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+277,20UPBBB0001983,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+278,20UPBBB0001984,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+279,20UPBBB0001985,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,22/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+280,20UPBBB0001986,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.984
+281,20UPBBB0001987,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+282,20UPBBB0001988,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.986
+283,20UPBBB0001989,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+284,20UPBBB0001990,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+285,20UPBBB0001991,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+286,20UPBBB0001992,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+287,20UPBBB0001993,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+288,20UPBBB0001994,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+289,20UPBBB0001995,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+290,20UPBBB0001996,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+291,20UPBBB0001997,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+292,20UPBBB0001998,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.975
+293,20UPBBB0001999,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+294,20UPBBB0002000,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+295,20UPBBB0002001,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+296,20UPBBB0002002,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+297,20UPBBB0002003,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+298,20UPBBB0002004,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+299,20UPBBB0002005,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+300,20UPBBB0002006,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+301,20UPBBB0002007,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+302,20UPBBB0002008,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+303,20UPBBB0002009,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+304,20UPBBB0002010,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+305,20UPBBB0002011,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+306,20UPBBB0002012,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+307,20UPBBB0002013,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+308,20UPBBB0002014,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+309,20UPBBB0002015,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+310,20UPBBB0002016,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+311,20UPBBB0002017,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+312,20UPBBB0002018,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+313,20UPBBB0002019,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+314,20UPBBB0002020,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+315,20UPBBB0002021,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+316,20UPBBB0002022,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+317,20UPBBB0002023,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+318,20UPBBB0002024,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+319,20UPBBB0002025,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+320,20UPBBB0002026,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.995
+321,20UPBBB0002027,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+322,20UPBBB0002028,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+323,20UPBBB0002029,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+324,20UPBBB0002030,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+325,20UPBBB0002031,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+326,20UPBBB0002032,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+327,20UPBBB0002033,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+328,20UPBBB0002034,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+329,20UPBBB0002035,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,25/03/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.985
+330,20UPBBB0002036,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+331,20UPBBB0002037,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+332,20UPBBB0002038,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+333,20UPBBB0002039,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+334,20UPBBB0002040,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+335,20UPBBB0002041,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+336,20UPBBB0002042,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+337,20UPBBB0002043,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+338,20UPBBB0002044,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+339,20UPBBB0002045,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+340,20UPBBB0002046,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+341,20UPBBB0002047,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+342,20UPBBB0002048,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+343,20UPBBB0002049,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.922
+344,20UPBBB0002050,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+345,20UPBBB0002051,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+346,20UPBBB0002052,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+347,20UPBBB0002053,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+348,20UPBBB0002054,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.08
+349,20UPBBB0002055,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.016
+350,20UPBBB0002056,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+351,20UPBBB0002057,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+352,20UPBBB0002058,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+353,20UPBBB0002059,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+354,20UPBBB0002060,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+355,20UPBBB0002061,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+356,20UPBBB0002062,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+357,20UPBBB0002063,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+358,20UPBBB0002064,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.014
+359,20UPBBB0002065,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+360,20UPBBB0002066,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+361,20UPBBB0002067,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+362,20UPBBB0002068,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+363,20UPBBB0002069,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+364,20UPBBB0002070,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.014
+365,20UPBBB0002071,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+366,20UPBBB0002072,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+367,20UPBBB0002073,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+368,20UPBBB0002074,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+369,20UPBBB0002075,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+370,20UPBBB0002076,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+371,20UPBBB0002077,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+372,20UPBBB0002078,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+373,20UPBBB0002079,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+374,20UPBBB0002080,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+375,20UPBBB0002081,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+376,20UPBBB0002082,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+377,20UPBBB0002083,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+378,20UPBBB0002084,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+379,20UPBBB0002085,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,28/03/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.972
+380,20UPBBB0002086,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+381,20UPBBB0002087,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+382,20UPBBB0002088,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+383,20UPBBB0002089,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.983
+384,20UPBBB0002090,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+385,20UPBBB0002091,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+386,20UPBBB0002092,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+387,20UPBBB0002093,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+388,20UPBBB0002094,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+389,20UPBBB0002095,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+390,20UPBBB0002096,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+391,20UPBBB0002097,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+392,20UPBBB0002098,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+393,20UPBBB0002099,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.974
+394,20UPBBB0002100,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+395,20UPBBB0002101,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+396,20UPBBB0002102,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.014
+397,20UPBBB0002103,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+398,20UPBBB0002104,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.032
+399,20UPBBB0002105,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+400,20UPBBB0002106,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.006
+401,20UPBBB0002107,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+402,20UPBBB0002108,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+403,20UPBBB0002109,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+404,20UPBBB0002110,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+405,20UPBBB0002111,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+406,20UPBBB0002112,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+407,20UPBBB0002113,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+408,20UPBBB0002114,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+409,20UPBBB0002115,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+410,20UPBBB0002116,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+411,20UPBBB0002117,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+412,20UPBBB0002118,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+413,20UPBBB0002119,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+414,20UPBBB0002120,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+415,20UPBBB0002121,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+416,20UPBBB0002122,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+417,20UPBBB0002123,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+418,20UPBBB0002124,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+419,20UPBBB0002125,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+420,20UPBBB0002126,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+421,20UPBBB0002127,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+422,20UPBBB0002128,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+423,20UPBBB0002129,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+424,20UPBBB0002130,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+425,20UPBBB0002131,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+426,20UPBBB0002132,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+427,20UPBBB0002133,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+428,20UPBBB0002134,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+429,20UPBBB0002135,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,04/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+430,20UPBBB0002136,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+431,20UPBBB0002137,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+432,20UPBBB0002138,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+433,20UPBBB0002139,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+434,20UPBBB0002140,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+435,20UPBBB0002141,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+436,20UPBBB0002142,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+437,20UPBBB0002143,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+438,20UPBBB0002144,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.031
+439,20UPBBB0002145,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+440,20UPBBB0002146,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+441,20UPBBB0002147,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+442,20UPBBB0002148,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+443,20UPBBB0002149,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+444,20UPBBB0002150,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+445,20UPBBB0002151,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.007
+446,20UPBBB0002152,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+447,20UPBBB0002153,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+448,20UPBBB0002154,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+449,20UPBBB0002155,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+450,20UPBBB0002156,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+451,20UPBBB0002157,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+452,20UPBBB0002158,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+453,20UPBBB0002159,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+454,20UPBBB0002160,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+455,20UPBBB0002161,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+456,20UPBBB0002162,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+457,20UPBBB0002163,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.041
+458,20UPBBB0002164,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+459,20UPBBB0002165,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+460,20UPBBB0002166,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+461,20UPBBB0002167,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+462,20UPBBB0002168,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.027
+463,20UPBBB0002169,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+464,20UPBBB0002170,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+465,20UPBBB0002171,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+466,20UPBBB0002172,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+467,20UPBBB0002173,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+468,20UPBBB0002174,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+469,20UPBBB0002175,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+470,20UPBBB0002176,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+471,20UPBBB0002177,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+472,20UPBBB0002178,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+473,20UPBBB0002179,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS, 
+474,20UPBBB0002180,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+475,20UPBBB0002181,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+476,20UPBBB0002182,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+477,20UPBBB0002183,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+478,20UPBBB0002184,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+479,20UPBBB0002185,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+480,20UPBBB0002186,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+481,20UPBBB0002187,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+482,20UPBBB0002188,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+483,20UPBBB0002189,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+484,20UPBBB0002190,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+485,20UPBBB0002191,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+486,20UPBBB0002192,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+487,20UPBBB0002193,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.012
+488,20UPBBB0002194,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+489,20UPBBB0002195,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+490,20UPBBB0002196,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+491,20UPBBB0002197,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+492,20UPBBB0002198,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+493,20UPBBB0002199,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+494,20UPBBB0002200,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+495,20UPBBB0002201,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+496,20UPBBB0002202,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+497,20UPBBB0002203,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+498,20UPBBB0002204,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.986
+499,20UPBBB0002205,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+500,20UPBBB0002206,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+501,20UPBBB0002207,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+502,20UPBBB0002208,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+503,20UPBBB0002209,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+504,20UPBBB0002210,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+505,20UPBBB0002211,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+506,20UPBBB0002212,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+507,20UPBBB0002213,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+508,20UPBBB0002214,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.014
+509,20UPBBB0002215,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.014
+510,20UPBBB0002216,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.013
+511,20UPBBB0002217,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+512,20UPBBB0002218,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+513,20UPBBB0002219,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+514,20UPBBB0002220,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.98
+515,20UPBBB0002221,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.983
+516,20UPBBB0002222,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+517,20UPBBB0002223,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.979
+518,20UPBBB0002224,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+519,20UPBBB0002225,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+520,20UPBBB0002226,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+521,20UPBBB0002227,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+522,20UPBBB0002228,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.982
+523,20UPBBB0002229,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+524,20UPBBB0002230,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.985
+525,20UPBBB0002231,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+526,20UPBBB0002232,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+527,20UPBBB0002233,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.984
+528,20UPBBB0002234,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.011
+529,20UPBBB0002235,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,24/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.982
+530,20UPBBB0002236,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.029
+531,20UPBBB0002237,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+532,20UPBBB0002238,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+533,20UPBBB0002239,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+534,20UPBBB0002240,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+535,20UPBBB0002241,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+536,20UPBBB0002242,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.009
+537,20UPBBB0002243,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+538,20UPBBB0002244,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+539,20UPBBB0002245,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.01
+540,20UPBBB0002246,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+541,20UPBBB0002247,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+542,20UPBBB0002248,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+543,20UPBBB0002249,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.978
+544,20UPBBB0002250,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+545,20UPBBB0002251,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+546,20UPBBB0002252,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+547,20UPBBB0002253,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.917
+548,20UPBBB0002254,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.981
+549,20UPBBB0002255,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+550,20UPBBB0002256,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+551,20UPBBB0002257,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+552,20UPBBB0002258,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+553,20UPBBB0002259,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+554,20UPBBB0002260,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+555,20UPBBB0002261,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+556,20UPBBB0002262,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+557,20UPBBB0002263,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+558,20UPBBB0002264,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+559,20UPBBB0002265,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+560,20UPBBB0002266,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+561,20UPBBB0002267,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+562,20UPBBB0002268,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+563,20UPBBB0002269,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+564,20UPBBB0002270,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+565,20UPBBB0002271,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.977
+566,20UPBBB0002272,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+567,20UPBBB0002273,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.976
+568,20UPBBB0002274,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+569,20UPBBB0002275,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+570,20UPBBB0002276,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+571,20UPBBB0002277,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.979
+572,20UPBBB0002278,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+573,20UPBBB0002279,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+574,20UPBBB0002280,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.985
+575,20UPBBB0002281,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+576,20UPBBB0002282,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.991
+577,20UPBBB0002283,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.978
+578,20UPBBB0002284,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+579,20UPBBB0002285,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,26/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.983
+580,20UPBBB0002286,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.989
+581,20UPBBB0002287,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+582,20UPBBB0002288,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+583,20UPBBB0002289,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.973
+584,20UPBBB0002290,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.991
+585,20UPBBB0002291,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+586,20UPBBB0002292,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.989
+587,20UPBBB0002293,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.988
+588,20UPBBB0002294,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+589,20UPBBB0002295,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.989
+590,20UPBBB0002296,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+591,20UPBBB0002297,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.972
+592,20UPBBB0002298,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+593,20UPBBB0002299,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.989
+594,20UPBBB0002300,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.99
+595,20UPBBB0002301,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.07
+596,20UPBBB0002302,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.956
+597,20UPBBB0002303,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.99
+598,20UPBBB0002304,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.951
+599,20UPBBB0002305,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+600,20UPBBB0002306,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+601,20UPBBB0002307,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+602,20UPBBB0002308,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.992
+603,20UPBBB0002309,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+604,20UPBBB0002310,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+605,20UPBBB0002311,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+606,20UPBBB0002312,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+607,20UPBBB0002313,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+608,20UPBBB0002314,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+609,20UPBBB0002315,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+610,20UPBBB0002316,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+611,20UPBBB0002317,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+612,20UPBBB0002318,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+613,20UPBBB0002319,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+614,20UPBBB0002320,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+615,20UPBBB0002321,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.977
+616,20UPBBB0002322,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.991
+617,20UPBBB0002323,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+618,20UPBBB0002324,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.963
+619,20UPBBB0002325,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+620,20UPBBB0002326,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+621,20UPBBB0002327,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+622,20UPBBB0002328,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+623,20UPBBB0002329,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+624,20UPBBB0002330,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.924
+625,20UPBBB0002331,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+626,20UPBBB0002332,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+627,20UPBBB0002333,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+628,20UPBBB0002334,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+629,20UPBBB0002335,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,29/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+630,20UPBBB0002336,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+631,20UPBBB0002337,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+632,20UPBBB0002338,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+633,20UPBBB0002339,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+634,20UPBBB0002340,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.994
+635,20UPBBB0002341,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+636,20UPBBB0002342,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+637,20UPBBB0002343,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+638,20UPBBB0002344,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+639,20UPBBB0002345,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.991
+640,20UPBBB0002346,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.036
+641,20UPBBB0002347,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.988
+642,20UPBBB0002348,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.988
+643,20UPBBB0002349,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+644,20UPBBB0002350,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.967
+645,20UPBBB0002351,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+646,20UPBBB0002352,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+647,20UPBBB0002353,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+648,20UPBBB0002354,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.018
+649,20UPBBB0002355,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+650,20UPBBB0002356,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+651,20UPBBB0002357,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.99
+652,20UPBBB0002358,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+653,20UPBBB0002359,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+654,20UPBBB0002360,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+655,20UPBBB0002361,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+656,20UPBBB0002362,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+657,20UPBBB0002363,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+658,20UPBBB0002364,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+659,20UPBBB0002365,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+660,20UPBBB0002366,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.988
+661,20UPBBB0002367,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+662,20UPBBB0002368,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.007
+663,20UPBBB0002369,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+664,20UPBBB0002370,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+665,20UPBBB0002371,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.958
+666,20UPBBB0002372,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+667,20UPBBB0002373,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.964
+668,20UPBBB0002374,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.944
+669,20UPBBB0002375,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+670,20UPBBB0002376,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+671,20UPBBB0002377,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.989
+672,20UPBBB0002378,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.987
+673,20UPBBB0002379,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.989
+674,20UPBBB0002380,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.968
+675,20UPBBB0002381,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.014
+676,20UPBBB0002382,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.987
+677,20UPBBB0002383,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+678,20UPBBB0002384,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+679,20UPBBB0002385,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.988
+680,20UPBBB0002386,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+681,20UPBBB0002387,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.992
+682,20UPBBB0002388,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.975
+683,20UPBBB0002389,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.962
+684,20UPBBB0002390,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.993
+685,20UPBBB0002391,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.986
+686,20UPBBB0002392,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,2.03
+687,20UPBBB0002393,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.984
+688,20UPBBB0002394,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+689,20UPBBB0002395,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+690,20UPBBB0002396,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+691,20UPBBB0002397,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,2.008
+692,20UPBBB0002398,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+693,20UPBBB0002399,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+694,20UPBBB0002400,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.989
+695,20UPBBB0002401,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991
+696,20UPBBB0002402,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.966
+697,20UPBBB0002403,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.99
+698,20UPBBB0002404,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,False,False,Pass/No_Pass,False,THICKNESS,1.922
+699,20UPBBB0002405,OB_BASE_BLOCK,QC_BEFORE_NI_COATING,Dimensional_Control,30/04/2024,1.0,True,False,Pass/No_Pass,True,THICKNESS,1.991

@@ -56,7 +56,7 @@ def eos_upload_metrology(filename, sn, code, title):
                 response = client.post("createComponentAttachment", data=data, files=files)  
 
 
-def mass_control_test(start, stop, comp_type, comp_stage, filename, sheet_name, file_save, altid_name, skiprows=4, *args, **kwargs):
+def mass_control_test(start, stop, comp_type, comp_stage, test_type, filename, sheet_name, file_save, altid_name, skiprows=4, *args, **kwargs):
     '''
     -kwargs take the type of key (either resultX_key or propertyX_key) and as value the code of the key
     
@@ -102,7 +102,7 @@ def mass_control_test(start, stop, comp_type, comp_stage, filename, sheet_name, 
     for i in range(0,len(sn)):
         for j in range(len(prop)):
             pre_reg = np.append(pre_reg,[prop[j],array[i][j+2]])
-        test_results = (sn[i],comp_type,comp_stage,'Mass_Control',date[i],'1.0',True,False)
+        test_results = (sn[i],comp_type,comp_stage,test_type,date[i],'1.0',True,False)
         test_results = np.append(test_results,pre_reg)
         register.append(test_results)
         
@@ -155,6 +155,8 @@ def dim_control_test(start, stop, comp_type, comp_stage, filename, sheet_name, f
             pass_nopass.append(True)
         elif array[i][2] == 'No Pass':
             pass_nopass.append(False)
+        elif comp_type == 'OB_PG_TILE':
+            pass_nopass.append(True)
 
     code, sn, temp = search_for_component(comp_type, code)
     array = array[start-1:stop]
@@ -284,8 +286,8 @@ def thermal_impedance_test(start, stop, comp_type, comp_stage, filename, sheet_n
     test_results = []
 
     for i in range(0,len(sn)):
-        test_results.append((sn[i],comp_type,comp_stage,'Thermal_cycling',date[i],'1.0',True,'false','Test_Date', date[i], 'Test_Temperature', array[i][2], 'Test_Power', array[i][3], 'Apparent_Thermal_Impedance', array[i][4]))
+        test_results.append((sn[i],comp_type,comp_stage,'Thermal_performance_check',date[i],'1.0',True,'false','Test_Date', date[i], 'Test_Temperature', array[i][2], 'Test_Power', array[i][3], 'Apparent_Thermal_Impedance', array[i][4]))
 
 
     df_1 =  pd.DataFrame(data=test_results,columns=['component','componentType','stage','testType','date','runNumber','passed','problems','property1_key','property1_value','property2_key','property2_value','property3_key','property3_value','result1_key','result1_value'])
-    df_1.to_csv('csv_files/%s/thermal_cycling_%s.csv'%(file_save,file_save))
+    df_1.to_csv('csv_files/%s/thermal_impedence_%s.csv'%(file_save,file_save))
