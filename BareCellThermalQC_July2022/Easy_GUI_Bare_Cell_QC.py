@@ -157,6 +157,8 @@ class MainWindow(QMainWindow):
 		measurment_run_extra = 0
 		global TFM_test_21
 		TFM_test_21 = 0.00
+		global prev_serial_number
+		prev_serial_number = 0
 		
 		##without hardware comment out##
 		data = [2,2,1,0]
@@ -399,7 +401,7 @@ class MainWindow(QMainWindow):
 		layout00.addWidget(self.widgetPB12)
   
 		layout00.addWidget(widgetl00L8)
-		widgetl00L8.setContentsMargins(0,12,0,0)
+		widgetl00L8.setContentsMargins(0,8,0,0)
 		layout006.addWidget(self.widgetl00L1)
 		layout006.addWidget(widget00ChB1)
 		layout00.addLayout(layout006)
@@ -415,7 +417,7 @@ class MainWindow(QMainWindow):
 		#layout00.addLayout(layout008)
 
 		layout00.addWidget(widgetl00L9)
-		widgetl00L9.setContentsMargins(0,12,0,0)
+		widgetl00L9.setContentsMargins(0,8,0,0)
 		layout007.addWidget(self.widgetl00L2)
 		layout007.addWidget(widget00ChB2)
 		layout00.addLayout(layout007)
@@ -431,7 +433,7 @@ class MainWindow(QMainWindow):
 		#layout00.addLayout(layout009)
 
 		layout00.addWidget(widgetl00L10)
-		widgetl00L10.setContentsMargins(0,12,0,0)
+		widgetl00L10.setContentsMargins(0,8,0,0)
 		layout0010.addWidget(widgetl00L6)
 		layout0010.addWidget(widget00DSB3)
 		layout00.addLayout(layout0010)
@@ -448,7 +450,7 @@ class MainWindow(QMainWindow):
 		layout00.addWidget(self.widgetPB11)
 
 		layout00.addWidget(widgetl00L11)
-		widgetl00L11.setContentsMargins(0,12,0,0)
+		widgetl00L11.setContentsMargins(0,8,0,0)
 
 		#layout00.addWidget(widgetl00L2)
 		#layout00.addWidget(widget00CB1)
@@ -471,7 +473,7 @@ class MainWindow(QMainWindow):
 
 	
 		#sector10
-		layout00.addWidget(widgetl10L13)
+		#layout00.addWidget(widgetl10L13)
 
 		#layout101.addWidget(widgetl10L1)
 		#layout101.addWidget(self.widgetl10L1)
@@ -491,6 +493,7 @@ class MainWindow(QMainWindow):
 
 		layout105.addWidget(widgetl10L5)
 		layout105.addWidget(self.widgetl10L5)
+		layout105.setContentsMargins(0,8,0,0)
 		layout00.addLayout(layout105)
 
 		#layout106.addWidget(widgetl10L6)
@@ -560,7 +563,7 @@ class MainWindow(QMainWindow):
 
 		widget = QWidget()
 		widget.setLayout(layout)
-		self.setMinimumSize(1200,1050)
+		self.setMinimumSize(1100,600)
 		self.setCentralWidget(widget)
 
 		#----------Timer----------#
@@ -953,9 +956,8 @@ class MainWindow(QMainWindow):
 		self.widget00DSB4.setValue(TFM_test_21.round(2))
 		print('TFM test 21:' + str(TFM_test_21.round(2)) + '+/-' + str(TFM_error.round(2)))
 
-		QApplication.processEvents()
 		self.widgetl11L17.setText("Test 21 Messung abgeschlossen")
-		QApplication.processEvents()
+
 
 
 
@@ -964,10 +966,16 @@ class MainWindow(QMainWindow):
 		global measurment_run_extra
 		global serial_number
 		global TFM_test_21
+		global prev_serial_number
 
 		if TFM_test_21 == 0.00:
 			QApplication.processEvents()
-			self.widgetl11L17.setText("Keine Vergleichs TFM angegeben oder gemessen.\nMessung wird nicht durchgeführt.\nSollte eine Messung ohne Vergleichs TFM durchgeführt\nwerden, bitte 0.01cm²K/W eintragen")
+			self.widgetl11L17.setText("Keine Vergleichs TFM gemessen. Messung ohne Vergleichs\nTFM durchführen bitte 0.01cm²K/W eintragen")
+			return 0
+		
+		if serial_number == prev_serial_number:
+			QApplication.processEvents()
+			self.widgetl11L17.setText("Serien Nummer nicht geändert.\nMessung kann nicht gestartet werden")
 			return 0
 
 		QApplication.processEvents()
@@ -1124,7 +1132,8 @@ class MainWindow(QMainWindow):
 
 		measurment_run = 0
 		measurment_run_extra += 1
-		self.widgetl11L17.setText("Messung erfolgreich Beendet")
+		prev_serial_number = serial_number
+		self.widgetl11L17.setText("Messung erfolgreich Beendet mit TFM=%s"%str(TFM.round(2)))
 
 
 

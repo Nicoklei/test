@@ -718,7 +718,7 @@ class MainWindow(QMainWindow):
 		self.widget01G.plot(x_values_graph,values_graph3, pen='g', name ='Sensor mitte unten')
 		self.widget01G.plot(x_values_graph,values_graph4, pen='r', name ='Sensor unten')
 		
-		if T1 >= 60:
+		if T1 >= 100:
 			d.set_channel(1)
 			time.sleep(0.05)
 			d.off()
@@ -726,7 +726,7 @@ class MainWindow(QMainWindow):
 			d.set_channel(2)
 			time.sleep(0.05)
 			d.off()
-		if T4 >= 30:
+		if T4 >= 60:
 			d.set_channel(1)
 			time.sleep(0.05)
 			d.off()

@@ -67,6 +67,11 @@ plt.plot([350,350],[1.7,3.0],linestyle='--',color='crimson')
 #plt.errorbar(Bare_Cells,all_TFM1,yerr=all_TFM_error1, color='crimson',fmt='.',label='Datapoints after cycling')#'m = %s +/- %s \nn = %s +/- %s \nd = %s +/- %s'%(str(popt[0].round(5)),str(errors[0].round(5)),str(popt[1].round(5)),str(errors[1].round(5)),str(popt[2].round(5)),str(errors[2].round(5))))
 #plt.plot(xlin,ylin,color='firebrick', label=r'Fit-Kurve: $n\cdot e^{-m\cdot x}+d$',lw=1.2)
 
+datei = open('TFM_WERTE.txt','a')
+for i in range(0,len(Bare_Cells)):
+   datei.write(str(Bare_Cells[i]) + '\t' + str(all_TFM[i]) + '\n')
+
+datei.close()
 
 plt.xlabel('Bare Cell number')
 ax.tick_params(axis='x', labelsize=6)
