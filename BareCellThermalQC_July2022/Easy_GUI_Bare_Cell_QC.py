@@ -173,13 +173,13 @@ class MainWindow(QMainWindow):
 		## Changing Labels
 		self.widgetl00L1 = QLabel("Starte Peltier-Element")
 		self.widgetl00L2 = QLabel("Starte Heizspirale")
-		self.widgetl00L3 = QLabel("Jetzige Spannung: 0.000")
-		self.widgetl00L4 = QLabel("Jetzige Spannung: 0.000")
+		self.widgetl00L3 = QLabel("Aktuelle Spannung: 0.000")
+		self.widgetl00L4 = QLabel("Aktuelle Spannung: 0.000")
 		self.widgetl00L5 = QLabel("Pc und Pi \nsind verbunden")
 		self.widgetl00L6 = QLabel("Knopf drücken um Range zu ändern.\nAnsonsten wird die vorherige oder \ndie Standart Range verwendet")
 		self.widgetl00L7 = QLabel()
-		self.widgetl00L8 = QLabel("Jetziger Strom: 0.000")
-		self.widgetl00L9 = QLabel("Jetziger Strom: s0.000")
+		self.widgetl00L8 = QLabel("Aktueller Strom: 0.000")
+		self.widgetl00L9 = QLabel("Aktueller Strom: s0.000")
 
 		## Not changing Labels
 		widgetl00L1 = QLabel("Bare Cell QC Setup Auslesesystem")
@@ -675,16 +675,16 @@ class MainWindow(QMainWindow):
 		vol = d.get_voltage()
 		time.sleep(0.05)
 		cur = d.get_current()
-		self.widgetl00L3.setText("Jetzige Spannung: " + str(vol))
-		self.widgetl00L8.setText("Jetziger Strom: " + str(cur))
+		self.widgetl00L3.setText("Aktuelle Spannung: " + str(vol))
+		self.widgetl00L8.setText("Aktueller Strom: " + str(cur))
 		time.sleep(0.05)
 		d.set_channel(2)
 		time.sleep(0.05)
 		vol = d.get_voltage()
 		time.sleep(0.05)
 		cur = d.get_current()
-		self.widgetl00L4.setText("Jetzige Spannung: " + str(vol))
-		self.widgetl00L9.setText("Jetziger Strom: " + str(cur))
+		self.widgetl00L4.setText("Aktuelle Spannung: " + str(vol))
+		self.widgetl00L9.setText("Aktueller Strom: " + str(cur))
 		data = [1,1,1,1]
 		A = adc_main.main("-c", data)
 
@@ -940,7 +940,7 @@ class MainWindow(QMainWindow):
 			var_lam3 = np.append(var_lam3,np.sqrt(((float(cur)*float(vol))/(T3-T4)**2*0.05/(0.0001*np.pi))**2*(f3**2+f4**2)))
 			go += 1
 
-		print(len(lam3),len(var_lam3))
+		
 		lambda1=np.sum(lam1/var_lam1**2)/np.sum(1/var_lam1**2)
 		lambda2=np.sum(lam2/var_lam2**2)/np.sum(1/var_lam2**2)
 		lambda3=np.sum(lam3/var_lam3**2)/np.sum(1/var_lam3**2)
@@ -953,12 +953,23 @@ class MainWindow(QMainWindow):
 		TFM_test_21 = (0.0092/lambda2-0.0076/lambda1)*(10**4)
 		TFM_error = np.sqrt((0.0092/(lambda2)**2)**2*(np.sqrt(1/np.sum(1/var_lam2**2)))**2+(0.0076/(lambda1)**2)**2*(np.sqrt(1/np.sum(1/var_lam1**2)))**2+(1/(lambda2)-1/(lambda1))**2*(0.0005)**2)*10**4
 
+		QApplication.processEvents()
 		self.widget00DSB4.setValue(TFM_test_21.round(2))
-		print('TFM test 21:' + str(TFM_test_21.round(2)) + '+/-' + str(TFM_error.round(2)))
+		print('TFM test 21:' + str(TFM_test_21) + '+/-' + str(TFM_error))
 
+		QApplication.processEvents()
 		self.widgetl11L17.setText("Test 21 Messung abgeschlossen")
 
-
+		dut = Dut("/home/cellqc/basil/examples/lab_devices/rs_hmp4040.yaml")
+		dut.init()
+		d = dut["PowerSupply"]
+		d.set_channel(1)
+		time.sleep(0.1)
+		d.off()
+		time.sleep(0.1)
+		d.set_channel(2)
+		time.sleep(0.1)
+		d.off()
 
 
 	def start_messurment(self):
@@ -1135,45 +1146,21 @@ class MainWindow(QMainWindow):
 		prev_serial_number = serial_number
 		self.widgetl11L17.setText("Messung erfolgreich Beendet mit TFM=%s"%str(TFM.round(2)))
 
+		dut = Dut("/home/cellqc/basil/examples/lab_devices/rs_hmp4040.yaml")
+		dut.init()
+		d = dut["PowerSupply"]
+		d.set_channel(1)
+		time.sleep(0.1)
+		d.off()
+		time.sleep(0.1)
+		d.set_channel(2)
+		time.sleep(0.1)
+		d.off()
 
 
 	def set_text(self,A):
-		#dut = Dut("/home/cellqc/basil/examples/lab_devices/rs_hmp4040.yaml")
-		#dut.init()
-		#d = dut["PowerSupply"]
-		#d.set_channel(2)
-		#time.sleep(0.05)
-		#vol = d.get_voltage()
-		#time.sleep(0.05)
-		#cur = d.get_current()
 
-		####Fehler####
-		#f1=1/(np.sqrt(100*((3.9083*10**(-3))**2*100+4*(-5.775*10**(-7))*((100*(A[0][0]/(A[5][0]-A[0][0])))-100))))*np.sqrt((A[0][0]/(A[5][0]-A[0][0]))**2*0.00324**2+((100*(A[0][0]/(A[5][0]-A[0][0])**2))**2*(A[5][1])**2)+((100*(A[5][0]/(A[0][0]-A[5][0])**2)))**2*(A[0][1])**2)+0.05
-		#f2=1/(np.sqrt(100*((3.9083*10**(-3))**2*100+4*-5.775*10**(-7)*((100*(A[1][0]/(A[5][0]-A[1][0])))-100))))*np.sqrt((A[1][0]/(A[5][0]-A[1][0]))**2*0.00324**2+((100*(A[1][0]/(A[5][0]-A[1][0])**2))**2*(A[5][1])**2)+((100*(A[5][0]/(A[1][0]-A[5][0])**2)))**2*(A[1][1])**2)+0.05
-		#f3=1/(np.sqrt(100*((3.9083*10**(-3))**2*100+4*-5.775*10**(-7)*((100*(A[2][0]/(A[5][0]-A[2][0])))-100))))*np.sqrt((A[2][0]/(A[5][0]-A[2][0]))**2*0.00324**2+((100*(A[2][0]/(A[5][0]-A[2][0])**2))**2*(A[5][1])**2)+((100*(A[5][0]/(A[2][0]-A[5][0])**2)))**2*(A[2][1])**2)+0.05
-		#f4=1/(np.sqrt(100*((3.9083*10**(-3))**2*100+4*-5.775*10**(-7)*((100*(A[3][0]/(A[5][0]-A[3][0])))-100))))*np.sqrt((A[3][0]/(A[5][0]-A[3][0]))**2*0.00324**2+((100*(A[3][0]/(A[5][0]-A[3][0])**2))**2*(A[5][1])**2)+((100*(A[5][0]/(A[3][0]-A[5][0])**2)))**2*(A[3][1])**2)+0.05
-	
-		#T1=((-3.9083*10**(-3)*100+np.sqrt((-3.9083*10**(-3)*100)**2-4*(-5.775*10**(-7)*100)*(100-(100*(A[0][0]/(A[5][0]-A[0][0]))))))/(2*(-5.775*10**(-7)*100)))
-		#T2=((-3.9083*10**(-3)*100+np.sqrt((-3.9083*10**(-3)*100)**2-4*(-5.775*10**(-7)*100)*(100-(100*(A[1][0]/(A[5][0]-A[1][0]))))))/(2*(-5.775*10**(-7)*100)))
-		#T3=((-3.9083*10**(-3)*100+np.sqrt((-3.9083*10**(-3)*100)**2-4*(-5.775*10**(-7)*100)*(100-(99.62*(A[2][0]/(A[5][0]-A[2][0]))))))/(2*(-5.775*10**(-7)*100)))
-		#T4=((-3.9083*10**(-3)*100+np.sqrt((-3.9083*10**(-3)*100)**2-4*(-5.775*10**(-7)*100)*(100-(99.95*(A[3][0]/(A[5][0]-A[3][0]))))))/(2*(-5.775*10**(-7)*100)))
-
-
-		#self.widgetl10L1.setText(str(round(T1,2))+'\t'+str(round(f1,3)))
-		#self.widgetl10L2.setText(str(round(T2,2))+'\t'+str(round(f2,3)))
-		#self.widgetl10L3.setText(str(round(T3,2))+'\t'+str(round(f3,3)))
-		#self.widgetl10L4.setText(str(round(T4,2))+'\t'+str(round(f4,3)))
 		self.widgetl10L5.setText(str(round(((A[4][0]*1000-1.55639)/2.31754),2))+'\t'+str(round((np.sqrt((1/2.31754)**2*(A[4][1]*1000)**2+(A[4][0]*1000/2.31754**2)**2*0.01692**2+(1/2.31754)**2*0.4216**2)),2)))
-		#self.widgetl10L6.setText(str(round(A[5][0],6))+'\t'+str(round(A[5][1],6)))
-		#self.widgetl10L7.setText(str(round((float(cur)*float(vol))/(T1-T2)*0.05/(0.0001*np.pi),5))+'\t'+str(round(np.sqrt(((float(cur)*float(vol))/(T1-T2)**2*0.05/(0.0001*np.pi))**2*(f1**2+f2**2)+(float(cur)/(T1-T2)*0.05/(0.0001*np.pi))**2*0.005**2+(float(vol)/(T1-T2)*0.05/(0.0001*np.pi))**2*0.0005**2+(((float(cur)*float(vol))/(T3-T4)*1/(0.0001*np.pi))**2*0.004**2)),5)))
-		#self.widgetl10L8.setText(str(round((float(cur)*float(vol))/(T2-T3)*thick/(0.0001*np.pi),5))+'\t'+str(round(np.sqrt(((float(cur)*float(vol))/(T2-T3)**2*thick/(0.0001*np.pi))**2*(f2**2+f3**2)+(float(cur)/(T2-T3)*thick/(0.0001*np.pi))**2*0.005**2+(float(vol)/(T2-T3)*thick/(0.0001*np.pi))**2*0.0005**2+(((float(cur)*float(vol))/(T2-T3)*1/(0.0001*np.pi))**2*0.0001**2)),5)))
-		#self.widgetl10L9.setText(str(round((float(cur)*float(vol))/(T3-T4)*0.05/(0.0001*np.pi),5))+'\t'+str(round(np.sqrt(((float(cur)*float(vol))/(T3-T4)**2*0.05/(0.0001*np.pi))**2*(f3**2+f4**2)+(float(cur)/(T3-T4)*0.05/(0.0001*np.pi))**2*0.005**2+(float(vol)/(T3-T4)*0.05/(0.0001*np.pi))**2*0.0005**2+(((float(cur)*float(vol))/(T3-T4)*1/(0.0001*np.pi))**2*0.004**2)),5)))
-
-	
-		#self.widgetl10L13.setText(str(round((T1-T2)*np.pi/(float(cur)*float(vol)),5))+'\t'+str(round(np.sqrt(1/(float(cur)*float(vol))**2*(f1**2+f2**2)),5)))
-		#self.widgetl10L14.setText(str(round((T2-T3)*np.pi/(float(cur)*float(vol)),5))+'\t'+str(round(np.sqrt(1/(float(cur)*float(vol))**2*(f1**2+f2**2)),5)))
-		#self.widgetl10L15.setText(str(round((T3-T4)*np.pi/(float(cur)*float(vol)),5))+'\t'+str(round(np.sqrt(1/(float(cur)*float(vol))**2*(f1**2+f2**2)),5)))
-		#self.widgetl10L16.setText(str(round((T2-T3)*np.pi/(float(cur)*float(vol))-2*0.0034/0.05*(T1-T2)*np.pi/(float(cur)*float(vol)),5)))
 
 
 def main():

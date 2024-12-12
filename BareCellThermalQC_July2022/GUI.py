@@ -943,7 +943,7 @@ class MainWindow(QMainWindow):
 		TFM_error = np.sqrt((0.0092/(lambda2)**2)**2*(np.sqrt(1/np.sum(1/var_lam2**2)))**2+(0.0076/(lambda1)**2)**2*(np.sqrt(1/np.sum(1/var_lam1**2)))**2+(1/(lambda2)-1/(lambda1))**2*(0.0005)**2)*10**4
 
 		self.widget00DSB4.setValue(TFM_test_21.round(2))
-		print('TFM test 21:' + str(TFM_test_21.round(2)) + '+/-' + str(TFM_error.round(2)))
+		print('TFM test 21:' + str(TFM_test_21) + '+/-' + str(TFM_error))
 
 		QApplication.processEvents()
 		self.widgetl11L17.setText("Test 21 Messung abgeschlossen")
