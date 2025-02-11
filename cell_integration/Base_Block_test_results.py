@@ -161,6 +161,7 @@ def dim_control_test(start, stop, comp_type, comp_stage, filename, sheet_name, f
     code, sn, temp = search_for_component(comp_type, code)
     array = array[start-1:stop]
 
+    print(sn,date,pass_nopass)
     for i in range(0,len(sn)):
         for j in range(len(prop)):
             if prop[j] == 'Pass/No_Pass':

@@ -146,9 +146,9 @@ def assembly(list_of_SN, comp_type, file_save, *args,**kwargs):
     
     for i in range(len(list_of_SN)):
         list_of_parent_SN = np.append(list_of_parent_SN, "%s%s"%(args[0],list_of_SN[i]))
-    #print(list_of_parent_SN)
+    print(list_of_parent_SN)
     code, serial_numbers_parent, temp = search_for_component(comp_type, list_of_parent_SN)
-    #print(serial_numbers_parent)
+    print(serial_numbers_parent)
     
     for key, value in kwargs.items():
         children = np.append(children, key)

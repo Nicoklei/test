@@ -11,7 +11,6 @@ from PIL import Image
 import os
 
 
-
 class MainWindow(QMainWindow):
 
 	def __init__(self):
@@ -20,7 +19,7 @@ class MainWindow(QMainWindow):
 		global serial_number
 		global path
 		global path_folder
-		path_folder = '/home/loaded_cell_qc/sciebo - Klein, Nico (s6nnklei@uni-bonn.de)@uni-bonn.sciebo.de/CERN_Doku/P0/P0_BareCellFoto/'
+		path_folder = '/home/loaded_cell_qc/sciebo - Klein, Nico (s6nnklei@uni-bonn.de)@uni-bonn.sciebo.de/CERN_Doku/P1/P1_BaseBlockFoto/'
 		global up_down
 		up_down = 0
 
@@ -103,40 +102,42 @@ class MainWindow(QMainWindow):
 
 		#serial_number = float(serial_number)
 		#print(serial_number)
-		serial_number = int(path[10:14])
-		print(serial_number)
+		serial_number = int(path[12:16])
+		#print(serial_number)
 		#print(("Base_Block_1.%i-1.%i"%(serial_number,serial_number+89)))
 		#return 0
 
 		# Create folder and check for existance of the folder, if so the process will not create new pictures
-		#if os.path.exists("%.4f-%.4f"%(serial_number,serial_number+19)) ==True:
-		#	self.widgetl0L1.setText("Für diese Palette wurden schon Bilder erstellt\nZum fortfahren Ordner %.4f-%.4f löschen"%(serial_number,serial_number+19/10000))
+		if os.path.exists("Base_Block_1.%i-1.%i"%(serial_number,serial_number+89)) ==True:
+			self.widgetl0L1.setText("Für diese Palette wurden schon Bilder erstellt\nZum fortfahren Ordner 1.%i-1.%i löschen"%(serial_number,serial_number+19/10000))
 		
-		#os.mkdir("%.4f-%.4f"%(serial_number,serial_number+19))
+		os.mkdir("Base_Block_1.%i-1.%i"%(serial_number,serial_number+89))
 
 		# Cut out Bare Cells
 		if up_down == 2:
 			counter = 0
-			for horizontal in range(4):
+			for horizontal in range(9):
 				#print(horizontal)
-				for vertical in range(5):
+				for vertical in range(10):
 					#print(f"{horizontal} \t {vertical} \t {counter}")
-					Cell1 = im.crop((4300-1050*vertical,3100-1050*horizontal,5250-1050*vertical,4000-1050*horizontal))
-					#Cell1.save("%.4f-%.4f/%.4f.png"%(serial_number,serial_number+19,serial_number+vertical+horizontal*4+counter))
-					Cell1.save("Bare_Cell_pictures_pre_production/1.%i.png"%(serial_number+vertical+horizontal*4+counter))
-     				#print(round(serial_number+vertical/10000+horizontal/10000*4+counter/10000,4))
+					Cell1 = im.crop((4800-540*vertical,3450-420*horizontal,5250-520*vertical,3900-420*horizontal))
+					#print(f"{3450-420*horizontal} \t {4800-540*vertical} \t {3900-420*horizontal} \t {5250-520*vertical}")
+					Cell1.save("Base_Block_1.%i-1.%i/1.%i.png"%(serial_number,serial_number+89,serial_number+vertical+horizontal*9+counter))
+					Cell1.save("Base_Block_pictures/1.%i.png"%(serial_number+vertical+horizontal*9+counter))
 				counter += 1
 		elif up_down == 0:
 			counter = 0
-			for horizontal in range(4):
+			for horizontal in range(9):
 				#print(horizontal)
-				for vertical in range(5):
+				for vertical in range(10):
 					#print(f"{horizontal} \t {vertical} \t {counter}")
-					Cell1 = im.crop((70+1050*vertical,0+1050*horizontal,1070+1050*vertical,900+1050*horizontal))
-					#Cell1.save("%.4f-%.4f/%.4f.png"%(serial_number,serial_number+19/10000,serial_number+vertical/10000+horizontal/10000*4+counter/10000))
-					Cell1.save("Bare_Cell_pictures_pre_production/1.%i.png"%(serial_number+vertical+horizontal*4+counter))
-     				#print(round(serial_number+vertical/10000+horizontal/10000*4+counter/10000,4))
+					Cell1 = im.crop((0+540*vertical,90+420*horizontal,570+540*vertical,540+420*horizontal))
+					Cell1.save("Base_Block_1.%i-1.%i/1.%i.png"%(serial_number,serial_number+89,serial_number+vertical+horizontal*9+counter))
+					Cell1.save("Base_Block_pictures/1.%i.png"%(serial_number+vertical+horizontal*9+counter))
+					#print(round(serial_number+vertical/10000+horizontal/10000*4+counter/10000,4))
 				counter += 1
+		path = 'BaseBlock_1-0%i-0%i'%(serial_number+90, serial_number+179)
+		self.widget0LE2.setText(path)
 
 
 # Start the GUI

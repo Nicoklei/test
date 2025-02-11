@@ -12,8 +12,9 @@ from datetime import datetime
 
 import itk_pdb.dbAccess as dbAccess
 import itkdb
-import CSV_file_changer_Base_Block as reg_BB
 import Base_Block_test_results as BB_test
+import CSV_file_changer_Base_Block as reg_BB
+
 
 
 serial_number_stop = None
@@ -535,7 +536,7 @@ class MainWindow(QMainWindow):
 
                         list_of_alt_id = self.get_serial_numbers(altid_name="")
                         
-                        reg_BB.assembly(list_of_alt_id, comp_type, file_save, assemble_altid, **assemble_children)
+                        reg_BB.assembly(list_of_alt_id, comp_type, file_save, *assemble_altid, **assemble_children)
                         self.widgetl0L4.setText("Die CSV Datei zum Assemblen wurde erstellt")
                 else: self.widgetl0L4.setText("Ein Stop Serien Nummer muss ausgewählt werden")
             else: self.widgetl0L4.setText("Ein Start Serien Nummer muss ausgewählt werden")
@@ -856,7 +857,7 @@ class MainWindow(QMainWindow):
             elif comp_type == "OB_COOLING_BLOCK":
                 picture_path = 'Bilder_schneiden/Cooling_Block_pictures/'
             elif comp_type == "OB_BARE_MODULE_CELL":
-                picture_path = 'Bilder_schneiden/Bare_Cell_pictures_pre_production/'
+                picture_path = 'Bilder_schneiden/Bare_Cell_pictures/'
         else:
             picture_path = picture_path
 
@@ -895,7 +896,7 @@ class MainWindow(QMainWindow):
             elif comp_type == "OB_COOLING_BLOCK":
                 metro_path = '/home/loaded_cell_qc/sciebo - Klein, Nico (s6nnklei@uni-bonn.de)@uni-bonn.sciebo.de/CERN_Doku/P1/P1_CoolingBlockMessprotokoll/cooling_block_1_'
             elif comp_type == "OB_BARE_MODULE_CELL":
-                metro_path = '/home/loaded_cell_qc/sciebo - Klein, Nico (s6nnklei@uni-bonn.de)@uni-bonn.sciebo.de/CERN_Doku/P0/P0_BareCellMessprotokoll/BareCell_'
+                metro_path = '/home/loaded_cell_qc/sciebo - Klein, Nico (s6nnklei@uni-bonn.de)@uni-bonn.sciebo.de/CERN_Doku/P1/P1_BareCellMessprotokoll/BareCell_1__'
         else:
             metro_path = metro_path
 
