@@ -1,0 +1,2 @@
+Gewicht	err	lambda_1	err	lambda_2	err	lambda_3	err	TFM_DUT	err	TFM_test_21
+19.6146	0.2351	188.182	0.202	30.212	0.028	174.369	0.168	2.64	0.14	2.97
